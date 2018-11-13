@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="InterfaceTest">
+    <test name="QuicktronTestDemo">
+        <classes>
+            <class name="test.UtilsMethodTest">
+                <methods>
+                    <include name="testJDBCUtils"/>
+                    <include name="testJsonUtils"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="listen.ExtentTestNGIReporterListener"/>
+        <listener class-name="listen.RetryListener"/>
+    </listeners>
+</suite>
