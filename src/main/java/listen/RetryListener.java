@@ -9,6 +9,7 @@ import java.lang.reflect.Method;
 
 /**
  * Created by zhuran on 2018/11/13 0015
+ * TestNG重试监听类
  */
 public class RetryListener implements IAnnotationTransformer {
 

@@ -15,6 +15,7 @@ import java.util.*;
 
 /**
  * Created by zhuran on 2018/11/13 0015
+ * TestNG报表监听类
  */
 public class ExtentTestNGIReporterListener implements IReporter {
     //生成的路径以及文件名

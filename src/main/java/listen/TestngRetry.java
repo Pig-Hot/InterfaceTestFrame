@@ -7,6 +7,7 @@ import org.testng.ITestResult;
 
 /**
  * Created by zhuran on 2018/11/13 0015
+ * TestNG重试机制类
  */
 public class TestngRetry implements IRetryAnalyzer {
 
