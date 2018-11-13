@@ -5,6 +5,9 @@ import org.slf4j.LoggerFactory;
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 
+/**
+ * Created by zhuran on 2018/11/13 0015
+ */
 public class TestngRetry implements IRetryAnalyzer {
 
     private final static Logger log = LoggerFactory.getLogger(TestngRetry.class);

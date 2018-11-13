@@ -7,6 +7,9 @@ import org.testng.annotations.ITestAnnotation;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 
+/**
+ * Created by zhuran on 2018/11/13 0015
+ */
 public class RetryListener implements IAnnotationTransformer {
 
     public void transform(ITestAnnotation annotation, Class testClass,

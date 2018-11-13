@@ -14,7 +14,7 @@ import java.io.File;
 import java.util.*;
 
 /**
- * Created by chenwx on 17/3/24.
+ * Created by zhuran on 2018/11/13 0015
  */
 public class ExtentTestNGIReporterListener implements IReporter {
     //生成的路径以及文件名
