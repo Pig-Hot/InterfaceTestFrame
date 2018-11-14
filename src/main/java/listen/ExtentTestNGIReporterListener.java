@@ -7,6 +7,7 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.model.TestAttribute;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 import org.testng.*;
 import org.testng.xml.XmlSuite;
 
@@ -110,7 +111,7 @@ public class ExtentTestNGIReporterListener implements IReporter {
         htmlReporter.config().setReportName("QuicktronInterface自动化测试报告");
         htmlReporter.config().setChartVisibilityOnOpen(true);
         htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
-        // htmlReporter.config().setTheme(Theme.STANDARD);
+        htmlReporter.config().setTheme(Theme.STANDARD);
         htmlReporter.config().setResourceCDN(ResourceCDN.EXTENTREPORTS);
         htmlReporter.config().setCSS(".node.level-1  ul{ display:none;} .node.level-1.active ul{display:block;}");
         extent = new ExtentReports();
