@@ -14,5 +14,7 @@
     <listeners>
         <listener class-name="listen.ExtentTestNGIReporterListener"/>
         <listener class-name="listen.RetryListener"/>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
     </listeners>
 </suite>

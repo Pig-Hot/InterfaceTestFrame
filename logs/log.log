@@ -1,144 +1,18 @@
-2018-11-14 10:19:39,363 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
-2018-11-14 10:19:39,404 [main] [test.UtilsMethodTest] [INFO] - test jdbcutils
-2018-11-14 10:19:39,950 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
-2018-11-14 10:19:40,083 [main] [test.UtilsMethodTest] [INFO] - test httputils
-2018-11-14 10:19:41,060 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]
-2018-11-14 10:19:57,635 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
-2018-11-14 10:19:57,669 [main] [test.UtilsMethodTest] [INFO] - test jdbcutils
-2018-11-14 10:19:58,222 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
-2018-11-14 10:19:58,314 [main] [test.UtilsMethodTest] [INFO] - test httputils
-2018-11-14 10:19:59,467 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]
-2018-11-14 11:03:09,776 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
-2018-11-14 11:03:09,810 [main] [test.UtilsMethodTest] [INFO] - test jdbcutils
-2018-11-14 11:03:10,536 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
-2018-11-14 11:03:10,633 [main] [listen.TestngRetry] [INFO] - Running retry for 'testJsonUtils' on class listen.TestngRetry Retrying 1 times
-2018-11-14 11:03:10,634 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
-2018-11-14 11:03:10,635 [main] [listen.TestngRetry] [INFO] - Running retry for 'testJsonUtils' on class listen.TestngRetry Retrying 2 times
-2018-11-14 11:03:10,636 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
-2018-11-14 11:03:10,643 [main] [test.UtilsMethodTest] [INFO] - test httputils
-2018-11-14 11:03:11,626 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]
-2018-11-14 11:08:13,088 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
-2018-11-14 11:08:13,148 [main] [test.UtilsMethodTest] [INFO] - test jdbcutils
-2018-11-14 11:08:13,732 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
-2018-11-14 11:08:13,893 [main] [listen.TestngRetry] [INFO] - Running retry for 'testJsonUtils' on class listen.TestngRetry Retrying 1 times
-2018-11-14 11:08:13,894 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
-2018-11-14 11:08:13,895 [main] [listen.TestngRetry] [INFO] - Running retry for 'testJsonUtils' on class listen.TestngRetry Retrying 2 times
-2018-11-14 11:08:13,896 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
-2018-11-14 11:08:13,906 [main] [test.UtilsMethodTest] [INFO] - test httputils
-2018-11-14 11:08:15,373 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]
-2018-11-14 11:08:15,673 [main] [org.mongodb.driver.cluster] [INFO] - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
-2018-11-14 11:08:15,980 [main] [org.mongodb.driver.cluster] [INFO] - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
-2018-11-14 11:08:16,798 [cluster-ClusterId{value='5beb919ffa1f9f3ec8d130b3', description='null'}-127.0.0.1:27017] [org.mongodb.driver.cluster] [INFO] - Exception in monitor thread while connecting to server 127.0.0.1:27017
-com.mongodb.MongoSocketOpenException: Exception opening socket
-	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
-	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:115)
-	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:116)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
-	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
-	... 3 more
-2018-11-14 11:15:07,269 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
-2018-11-14 11:15:07,305 [main] [test.UtilsMethodTest] [INFO] - test jdbcutils
-2018-11-14 11:15:08,082 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
-2018-11-14 11:15:08,218 [main] [listen.TestngRetry] [INFO] - Running retry for 'testJsonUtils' on class listen.TestngRetry Retrying 1 times
-2018-11-14 11:15:08,220 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
-2018-11-14 11:15:08,221 [main] [listen.TestngRetry] [INFO] - Running retry for 'testJsonUtils' on class listen.TestngRetry Retrying 2 times
-2018-11-14 11:15:08,222 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
-2018-11-14 11:15:08,229 [main] [test.UtilsMethodTest] [INFO] - test httputils
-2018-11-14 11:15:18,288 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]
-2018-11-14 11:15:18,600 [main] [org.mongodb.driver.cluster] [INFO] - Cluster created with settings {hosts=[192.168.21.238:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
-2018-11-14 11:15:18,856 [main] [org.mongodb.driver.cluster] [INFO] - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=192.168.21.238:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
-2018-11-14 11:15:19,701 [cluster-ClusterId{value='5beb9346fa1f9f2350f653b1', description='null'}-192.168.21.238:27017] [org.mongodb.driver.cluster] [INFO] - Exception in monitor thread while connecting to server 192.168.21.238:27017
-com.mongodb.MongoSocketOpenException: Exception opening socket
-	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
-	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:115)
-	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:116)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
-	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
-	... 3 more
-2018-11-14 12:44:20,443 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
-2018-11-14 12:44:20,478 [main] [test.UtilsMethodTest] [INFO] - test jdbcutils
-2018-11-14 12:44:20,927 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
-2018-11-14 12:44:21,019 [main] [listen.TestngRetry] [INFO] - Running retry for 'testJsonUtils' on class listen.TestngRetry Retrying 1 times
-2018-11-14 12:44:21,020 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
-2018-11-14 12:44:21,021 [main] [listen.TestngRetry] [INFO] - Running retry for 'testJsonUtils' on class listen.TestngRetry Retrying 2 times
-2018-11-14 12:44:21,021 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
-2018-11-14 12:44:21,032 [main] [test.UtilsMethodTest] [INFO] - test httputils
-2018-11-14 12:44:21,948 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]
-2018-11-14 12:44:22,229 [main] [org.mongodb.driver.cluster] [INFO] - Cluster created with settings {hosts=[192.168.21.238:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
-2018-11-14 12:44:22,460 [main] [org.mongodb.driver.cluster] [INFO] - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=192.168.21.238:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
-2018-11-14 12:44:23,318 [cluster-ClusterId{value='5beba826fa1f9f322cfe720e', description='null'}-192.168.21.238:27017] [org.mongodb.driver.cluster] [INFO] - Exception in monitor thread while connecting to server 192.168.21.238:27017
-com.mongodb.MongoSocketOpenException: Exception opening socket
-	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
-	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:115)
-	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:116)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
-	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
-	... 3 more
-2018-11-14 12:47:26,435 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
-2018-11-14 12:47:26,466 [main] [test.UtilsMethodTest] [INFO] - test jdbcutils
-2018-11-14 12:47:26,930 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
-2018-11-14 12:47:27,029 [main] [listen.TestngRetry] [INFO] - Running retry for 'testJsonUtils' on class listen.TestngRetry Retrying 1 times
-2018-11-14 12:47:27,031 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
-2018-11-14 12:47:27,032 [main] [listen.TestngRetry] [INFO] - Running retry for 'testJsonUtils' on class listen.TestngRetry Retrying 2 times
-2018-11-14 12:47:27,033 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
-2018-11-14 12:47:27,066 [main] [test.UtilsMethodTest] [INFO] - test httputils
-2018-11-14 12:47:28,111 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]
-2018-11-14 12:47:28,481 [main] [org.mongodb.driver.cluster] [INFO] - Cluster created with settings {hosts=[192.168.21.238:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
-2018-11-14 12:47:28,727 [main] [org.mongodb.driver.cluster] [INFO] - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=192.168.21.238:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
-2018-11-14 12:47:29,564 [cluster-ClusterId{value='5beba8e0fa1f9f33e0d7bbab', description='null'}-192.168.21.238:27017] [org.mongodb.driver.cluster] [INFO] - Exception in monitor thread while connecting to server 192.168.21.238:27017
-com.mongodb.MongoSocketOpenException: Exception opening socket
-	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
-	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:115)
-	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:116)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
-	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
-	... 3 more
-2018-11-14 12:48:14,404 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
-2018-11-14 12:48:14,437 [main] [test.UtilsMethodTest] [INFO] - test jdbcutils
-2018-11-14 12:48:15,030 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
-2018-11-14 12:48:15,127 [main] [listen.TestngRetry] [INFO] - Running retry for 'testJsonUtils' on class listen.TestngRetry Retrying 1 times
-2018-11-14 12:48:15,128 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
-2018-11-14 12:48:15,128 [main] [listen.TestngRetry] [INFO] - Running retry for 'testJsonUtils' on class listen.TestngRetry Retrying 2 times
-2018-11-14 12:48:15,129 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
-2018-11-14 12:48:15,136 [main] [test.UtilsMethodTest] [INFO] - test httputils
-2018-11-14 12:48:16,018 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]
+2018-11-16 14:52:02,069 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
+2018-11-16 14:52:02,103 [main] [test.UtilsMethodTest] [INFO] - test jdbcutils
+2018-11-16 14:52:02,606 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
+2018-11-16 14:52:02,694 [main] [listen.TestngRetry] [INFO] - Running retry for 'testJsonUtils' on class listen.TestngRetry Retrying 1 times
+2018-11-16 14:52:02,695 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
+2018-11-16 14:52:02,696 [main] [listen.TestngRetry] [INFO] - Running retry for 'testJsonUtils' on class listen.TestngRetry Retrying 2 times
+2018-11-16 14:52:02,697 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
+2018-11-16 14:52:02,704 [main] [test.UtilsMethodTest] [INFO] - test httputils
+2018-11-16 14:52:03,550 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]
+2018-11-16 14:56:37,172 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
+2018-11-16 14:56:37,201 [main] [test.UtilsMethodTest] [INFO] - test jdbcutils
+2018-11-16 14:56:37,825 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
+2018-11-16 14:56:37,924 [main] [listen.TestngRetry] [INFO] - Running retry for 'testJsonUtils' on class listen.TestngRetry Retrying 1 times
+2018-11-16 14:56:37,926 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
+2018-11-16 14:56:37,926 [main] [listen.TestngRetry] [INFO] - Running retry for 'testJsonUtils' on class listen.TestngRetry Retrying 2 times
+2018-11-16 14:56:37,929 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
+2018-11-16 14:56:37,937 [main] [test.UtilsMethodTest] [INFO] - test httputils
+2018-11-16 14:56:38,995 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]
