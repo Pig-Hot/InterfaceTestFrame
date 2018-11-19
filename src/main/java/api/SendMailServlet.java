@@ -16,7 +16,6 @@ public class SendMailServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         response.setHeader("Content-Type","text/html;charset=UTF-8");
-        System.out.println(request.getParameter("address") + " " + request.getParameter("title") + " " + request.getParameter("context"));
         SendMailUtils.sendMail(request.getParameter("address"), request.getParameter("title"), request.getParameter("context"));
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
