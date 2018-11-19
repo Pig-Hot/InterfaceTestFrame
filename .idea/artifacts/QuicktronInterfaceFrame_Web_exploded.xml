@@ -1,0 +1,47 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="QuicktronInterfaceFrame:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/QuicktronInterfaceFrame_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="QuicktronInterfaceFrame/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="QuicktronInterfaceFrame" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.1.41" />
+          <element id="library" level="project" name="Maven: ch.ethz.ganymed:ganymed-ssh2:262" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.3" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.6" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.9" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.11" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:2.6.0" />
+          <element id="library" level="project" name="Maven: org.testng:testng:6.14.3" />
+          <element id="library" level="project" name="Maven: com.beust:jcommander:1.72" />
+          <element id="library" level="project" name="Maven: org.apache-extras.beanshell:bsh:2.0b6" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.25" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.uncommons:reportng:1.1.4" />
+          <element id="library" level="project" name="Maven: velocity:velocity:1.4" />
+          <element id="library" level="project" name="Maven: velocity:velocity-dep:1.4" />
+          <element id="library" level="project" name="Maven: com.google.inject:guice:3.0" />
+          <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: com.aventstack:extentreports:3.1.1" />
+          <element id="library" level="project" name="Maven: org.mongodb:mongodb-driver:3.3.0" />
+          <element id="library" level="project" name="Maven: org.mongodb:bson:3.3.0" />
+          <element id="library" level="project" name="Maven: org.mongodb:mongodb-driver-core:3.3.0" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpmime:4.5.2" />
+          <element id="library" level="project" name="Maven: org.jsoup:jsoup:1.9.2" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.0" />
+          <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.23" />
+          <element id="library" level="project" name="Maven: javax.mail:javax.mail-api:1.6.2" />
+          <element id="library" level="project" name="Maven: com.sun.mail:smtp:1.6.2" />
+          <element id="library" level="project" name="Maven: com.sun.mail:mailapi:1.6.2" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
