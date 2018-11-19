@@ -22,8 +22,8 @@ public class SendMailUtils {
         props.put("mail.smtp.port", ALIDM_SMTP_PORT);
         props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
         props.put("mail.smtp.socketFactory.port", ALIDM_SMTP_PORT);
-        props.put("mail.user", "zhuran@flashhold.com");
-        props.put("mail.password", "QWEasd123");
+        props.put("mail.user", "songjian@flashhold.com");
+        props.put("mail.password", "cj@1208005851");
         Authenticator authenticator = new Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
                 String userName = props.getProperty("mail.user");
@@ -55,8 +55,7 @@ public class SendMailUtils {
             e.printStackTrace();
         }
     }
-
 //    public static void main(String[] args) {
-//        SendMailUtils.sendMail("songjian@flashhold.com", "测试", "测试");
+//        SendMailUtils.sendMail("zhuran@flashhold.com", "测试", "测试");
 //    }
 }

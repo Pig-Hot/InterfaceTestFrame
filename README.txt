@@ -1,7 +1,7 @@
 date:数据类(基础数据以及生成数据方法类)
 listen:监听类(重试,报表等监听类)
 test:接口用例类(接口用例脚本类)
-utils:常用工具类(Http请求,操作数据库,处理JSON相关以及时间等方法类)
+utils:常用工具类(Http请求,操作数据库,发送邮件,处理JSON相关以及时间等方法类)
 test-output:结果(生成的测试报表)
 logs:日志信息(case运行生成)
 testcase:接口用例XML文件(通过TestNG执行)
