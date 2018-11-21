@@ -22,10 +22,10 @@ public class SendMailServlet extends HttpServlet {
         try {
             SendMailUtils.sendMail(request.getParameter("address"), request.getParameter("title"), request.getParameter("context"));
             response.setContentType("text/html");
-            out.println(JSONUtils.make(ResultEnum.SUCCESSCODE,ResultEnum.SUCCESS,""));
+            out.println(JSONUtils.make(ResultEnum.SUCCESSCODE.getStatus(),ResultEnum.SUCCESS.getStatus(),""));
         } catch (Exception e) {
             e.printStackTrace();
-            out.println(JSONUtils.make(ResultEnum.ERRORCODE,ResultEnum.ERROR,e));
+            out.println(JSONUtils.make(ResultEnum.ERRORCODE.getStatus(),ResultEnum.ERROR.getStatus(),e));
         }
     }
 

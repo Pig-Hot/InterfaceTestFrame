@@ -48,10 +48,10 @@ public class APITestServlet extends HttpServlet {
                 }
             }
             response.setContentType("text/html");
-            out.println(JSONUtils.make(ResultEnum.SUCCESSCODE,ResultEnum.SUCCESS,CaseResult.makeCaseResult(pass,fail,skip)));
+            out.println(JSONUtils.make(ResultEnum.SUCCESSCODE.getStatus(),ResultEnum.SUCCESS.getStatus(),CaseResult.makeCaseResult(pass,fail,skip)));
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
-            out.println(JSONUtils.make(ResultEnum.ERRORCODE,ResultEnum.ERROR,e));
+            out.println(JSONUtils.make(ResultEnum.ERRORCODE.getStatus(),ResultEnum.ERROR.getStatus(),e));
         }
     }
 }
