@@ -1,5 +1,6 @@
 package api;
 
+import date.ResultEnum;
 import utils.JSONUtils;
 import utils.SendMailUtils;
 
@@ -21,10 +22,10 @@ public class SendMailServlet extends HttpServlet {
         try {
             SendMailUtils.sendMail(request.getParameter("address"), request.getParameter("title"), request.getParameter("context"));
             response.setContentType("text/html");
-            out.println(JSONUtils.make(0,"success",""));
+            out.println(JSONUtils.make(ResultEnum.SUCCESSCODE,ResultEnum.SUCCESS,""));
         } catch (Exception e) {
             e.printStackTrace();
-            out.println(JSONUtils.make(-1,"error",e));
+            out.println(JSONUtils.make(ResultEnum.ERRORCODE,ResultEnum.ERROR,e));
         }
     }
 

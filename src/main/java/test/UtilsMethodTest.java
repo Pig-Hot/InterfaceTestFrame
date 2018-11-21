@@ -60,11 +60,12 @@ public class UtilsMethodTest {
     public static void main(String[] args) {
         TestNG testNG = new TestNG();
         testNG.setTestClasses(new Class[]{UtilsMethodTest.class});
+        testNG.setAnnotationTransformer(new RetryListener());
         testNG.run();
         Set<IReporter> reporterSet = testNG.getReporters();
         for (IReporter next : reporterSet) {
             if(next instanceof ExtentTestNGIReporterListener){
-                System.out.println(((ExtentTestNGIReporterListener) next).getContext().getPassedTests().size());
+                System.out.println(((ExtentTestNGIReporterListener) next).getContext().getSkippedTests().size());
             }
         }
     }

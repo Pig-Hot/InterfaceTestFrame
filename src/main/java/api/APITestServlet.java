@@ -3,6 +3,7 @@ package api;
 import date.CaseResult;
 import date.ResultEnum;
 import listen.ExtentTestNGIReporterListener;
+import listen.RetryListener;
 import org.testng.IReporter;
 import org.testng.TestNG;
 import utils.JSONUtils;
@@ -36,6 +37,7 @@ public class APITestServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         try {
             testNG.setTestClasses(new Class[]{Class.forName(request.getParameter("case"))});
+            testNG.setAnnotationTransformer(new RetryListener());
             testNG.run();
             Set<IReporter> reporterSet = testNG.getReporters();
             for (IReporter next : reporterSet) {
