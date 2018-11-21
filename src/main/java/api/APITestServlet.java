@@ -1,6 +1,7 @@
 package api;
 
 import date.CaseResult;
+import date.ResultEnum;
 import listen.ExtentTestNGIReporterListener;
 import org.testng.IReporter;
 import org.testng.TestNG;
@@ -45,10 +46,10 @@ public class APITestServlet extends HttpServlet {
                 }
             }
             response.setContentType("text/html");
-            out.println(JSONUtils.make(0,"success",CaseResult.makeCaseResult(pass,fail,skip)));
+            out.println(JSONUtils.make(ResultEnum.SUCCESSCODE,ResultEnum.SUCCESS,CaseResult.makeCaseResult(pass,fail,skip)));
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
-            out.println(JSONUtils.make(-1,"error",e));
+            out.println(JSONUtils.make(ResultEnum.ERRORCODE,ResultEnum.ERROR,e));
         }
     }
 }

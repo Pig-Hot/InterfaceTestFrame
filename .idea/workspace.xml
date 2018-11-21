@@ -7,32 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed5553b2-bfd2-4c09-b0e5-e4d75d2e4553" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/date/CaseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/date/ResultEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QuicktronInterfaceFrame_Web_exploded/WEB-INF/classes/api/APITestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QuicktronInterfaceFrame_Web_exploded/WEB-INF/classes/api/APITestServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QuicktronInterfaceFrame_Web_exploded/WEB-INF/classes/api/SendMailServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QuicktronInterfaceFrame_Web_exploded/WEB-INF/classes/api/SendMailServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QuicktronInterfaceFrame_Web_exploded/WEB-INF/classes/test/UtilsMethodTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QuicktronInterfaceFrame_Web_exploded/WEB-INF/classes/test/UtilsMethodTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QuicktronInterfaceFrame_Web_exploded/WEB-INF/classes/utils/JSONUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QuicktronInterfaceFrame_Web_exploded/WEB-INF/classes/utils/JSONUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/api/APITestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/APITestServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/listen/ExtentTestNGIReporterListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listen/ExtentTestNGIReporterListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/UtilsMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/UtilsMethodTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/APITestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/APITestServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/SendMailServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/SendMailServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/listen/ExtentTestNGIReporterListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/listen/ExtentTestNGIReporterListener$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/listen/ExtentTestNGIReporterListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/listen/ExtentTestNGIReporterListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/UtilsMethodTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/UtilsMethodTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/JSONUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/JSONUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Command line suite/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Command line suite/Command line test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Command line suite/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Command line suite/Command line test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-test.UtilsMethodTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-test.UtilsMethodTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Command line suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Command line suite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Command line suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Command line suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Command line suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Command line suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/JSONUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/JSONUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,8 +43,8 @@
       <file leaf-file-name="APITestServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/api/APITestServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+            <state relative-caret-position="391">
+              <caret line="51" column="59" selection-start-line="51" selection-start-column="59" selection-end-line="51" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SuiteHTMLReporter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/reporters/SuiteHTMLReporter.java">
+      <file leaf-file-name="ResultEnum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/date/ResultEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1357">
-              <caret line="49" column="28" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="28" />
+            <state relative-caret-position="138">
+              <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -86,8 +64,8 @@
       <file leaf-file-name="ExtentTestNGIReporterListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/listen/ExtentTestNGIReporterListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-318">
-              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+            <state relative-caret-position="173">
+              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#946#947#0" expanded="true" />
@@ -100,8 +78,8 @@
       <file leaf-file-name="JSONUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/JSONUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+            <state relative-caret-position="251">
+              <caret line="58" column="39" lean-forward="true" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,7 +99,7 @@
       <file leaf-file-name="ITestContext.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/ITestContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
+            <state relative-caret-position="-921">
               <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
             </state>
           </provider>
@@ -164,13 +142,14 @@
       <list>
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ITestNGListener</find>
-      <find />
+      <find>Test pass</find>
       <find>attachReporter</find>
       <find>time</find>
       <find>re</find>
@@ -229,8 +208,9 @@
         <option value="$PROJECT_DIR$/src/main/java/test/NewTestNG.java" />
         <option value="$PROJECT_DIR$/src/main/java/listen/ExtentTestNGIReporterListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/UtilsMethodTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/JSONUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/date/CaseResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/date/ResultEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/JSONUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/api/APITestServlet.java" />
       </list>
     </option>
@@ -672,7 +652,7 @@
       <workItem from="1542078404818" duration="7318000" />
       <workItem from="1542088894916" duration="3886000" />
       <workItem from="1542093401380" duration="37149000" />
-      <workItem from="1542775696670" duration="3472000" />
+      <workItem from="1542775696670" duration="4016000" />
     </task>
     <servers />
   </component>
@@ -709,7 +689,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68441000" />
+    <option name="totallyTimeSpent" value="68985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -726,16 +706,16 @@
       <window_info id="Structure" order="1" sideWeight="0.504717" side_tool="true" weight="0.28246754" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.75899744" weight="0.14498645" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.75899744" weight="0.39972898" />
       <window_info anchor="bottom" id="TODO" order="17" weight="0.20914127" />
       <window_info anchor="bottom" id="Messages" order="22" sideWeight="0.49871466" weight="0.31436315" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" sideWeight="0.6748072" weight="0.32655826" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.7384319" visible="true" weight="0.4105691" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.7384319" weight="0.4105691" />
       <window_info anchor="bottom" id="Version Control" order="23" weight="0.35501355" />
-      <window_info anchor="bottom" id="Terminal" order="25" sideWeight="0.49807197" weight="0.18699187" />
+      <window_info anchor="bottom" id="Terminal" order="25" sideWeight="0.49807197" visible="true" weight="0.18699187" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.495283" visible="true" weight="0.2744216" />
       <window_info id="Web" order="5" sideWeight="0.504717" side_tool="true" weight="0.28246754" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -800,7 +780,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/UtilsMethodTest.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/MethodInvocationHelper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -1066,39 +1045,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/ITestContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/JSONUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/date/CaseResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/listen/ExtentTestNGIReporterListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-318">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1114,10 +1064,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/ITestContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-921">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/listen/ExtentTestNGIReporterListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/date/ResultEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/JSONUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="58" column="39" lean-forward="true" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/api/APITestServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+        <state relative-caret-position="391">
+          <caret line="51" column="59" selection-start-line="51" selection-start-column="59" selection-end-line="51" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
