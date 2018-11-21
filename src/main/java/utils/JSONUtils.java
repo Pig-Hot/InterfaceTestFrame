@@ -53,4 +53,12 @@ public class JSONUtils {
         return JSONObject.parseObject(JSON.toJSONString(map));
     }
 
+    public static String make(Integer errNo, String msg, Object data) {
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("errNo", errNo);
+        jsonObject.put("errMsg", msg);
+        jsonObject.put("data", data);
+        return jsonObject.toJSONString();
+    }
+
 }

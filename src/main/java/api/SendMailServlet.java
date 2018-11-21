@@ -1,5 +1,6 @@
 package api;
 
+import utils.JSONUtils;
 import utils.SendMailUtils;
 
 import javax.servlet.ServletException;
@@ -16,10 +17,15 @@ public class SendMailServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         response.setHeader("Content-Type","text/html;charset=UTF-8");
-        SendMailUtils.sendMail(request.getParameter("address"), request.getParameter("title"), request.getParameter("context"));
-        response.setContentType("text/html");
         PrintWriter out = response.getWriter();
-        out.println("success");
+        try {
+            SendMailUtils.sendMail(request.getParameter("address"), request.getParameter("title"), request.getParameter("context"));
+            response.setContentType("text/html");
+            out.println(JSONUtils.make(0,"success",""));
+        } catch (Exception e) {
+            e.printStackTrace();
+            out.println(JSONUtils.make(-1,"error",e));
+        }
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

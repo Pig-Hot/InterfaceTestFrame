@@ -1,6 +1,7 @@
 package api;
 
 import org.testng.TestNG;
+import utils.JSONUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -28,10 +29,10 @@ public class APITestServlet extends HttpServlet {
             testNG.setTestClasses(new Class[]{Class.forName(request.getParameter("case"))});
             testNG.run();
             response.setContentType("text/html");
-            out.println("success");
+            out.println(JSONUtils.make(0,"success",""));
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
-            out.println(e);
+            out.println(JSONUtils.make(-1,"error",e));
         }
     }
 }
