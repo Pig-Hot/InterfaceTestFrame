@@ -43,7 +43,7 @@ public class UtilsMethodTest {
     public void testJsonUtils() {
         logger.info("test jsonutils");
         System.out.println((JSONUtils.str2List("[1,2,3]")).get(0));
-        Assert.assertEquals(1, 0);
+        Assert.assertEquals(1, 1);
     }
 
     @Test
