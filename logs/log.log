@@ -1,2 +1,47 @@
 2018-11-21 10:08:05,083 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
 2018-11-21 10:08:05,125 [main] [test.UtilsMethodTest] [INFO] - test jdbcutils
+2018-11-21 12:56:19,559 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
+2018-11-21 12:56:19,589 [main] [test.UtilsMethodTest] [INFO] - test jdbcutils
+2018-11-21 12:56:40,854 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
+2018-11-21 12:56:40,933 [main] [test.UtilsMethodTest] [INFO] - test httputils
+2018-11-21 12:56:41,619 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]
+2018-11-21 12:58:40,678 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
+2018-11-21 12:58:40,715 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
+2018-11-21 12:58:40,907 [main] [test.UtilsMethodTest] [INFO] - test httputils
+2018-11-21 12:58:42,573 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]
+2018-11-21 13:06:56,708 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
+2018-11-21 13:06:56,738 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
+2018-11-21 13:06:56,900 [main] [test.UtilsMethodTest] [INFO] - test httputils
+2018-11-21 13:06:58,021 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]
+2018-11-21 13:09:12,280 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
+2018-11-21 13:09:12,343 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
+2018-11-21 13:09:13,488 [main] [test.UtilsMethodTest] [INFO] - test httputils
+2018-11-21 13:09:14,740 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]
+2018-11-21 13:09:23,913 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
+2018-11-21 13:09:23,945 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
+2018-11-21 13:09:24,135 [main] [test.UtilsMethodTest] [INFO] - test httputils
+2018-11-21 13:09:25,571 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]
+2018-11-21 13:16:59,021 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
+2018-11-21 13:16:59,050 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
+2018-11-21 13:16:59,279 [main] [test.UtilsMethodTest] [INFO] - test httputils
+2018-11-21 13:17:00,410 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]
+2018-11-21 13:18:33,928 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
+2018-11-21 13:18:33,952 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
+2018-11-21 13:18:34,110 [main] [test.UtilsMethodTest] [INFO] - test httputils
+2018-11-21 13:18:35,386 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]
+2018-11-21 13:48:39,679 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
+2018-11-21 13:48:39,704 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
+2018-11-21 13:48:39,849 [main] [test.UtilsMethodTest] [INFO] - test httputils
+2018-11-21 13:48:40,911 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]
+2018-11-21 13:48:58,235 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
+2018-11-21 13:48:58,264 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
+2018-11-21 13:48:58,414 [main] [test.UtilsMethodTest] [INFO] - test httputils
+2018-11-21 13:48:59,122 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]
+2018-11-21 13:53:08,920 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
+2018-11-21 13:53:08,945 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
+2018-11-21 13:53:09,102 [main] [test.UtilsMethodTest] [INFO] - test httputils
+2018-11-21 13:53:10,289 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]
+2018-11-21 13:54:31,594 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
+2018-11-21 13:54:31,623 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
+2018-11-21 13:54:31,763 [main] [test.UtilsMethodTest] [INFO] - test httputils
+2018-11-21 13:54:33,113 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]

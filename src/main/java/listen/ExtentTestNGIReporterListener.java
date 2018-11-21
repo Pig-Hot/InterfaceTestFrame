@@ -23,7 +23,13 @@ public class ExtentTestNGIReporterListener implements IReporter {
     private static final String OUTPUT_FOLDER = "test-report/";
     private static final String FILE_NAME = "index.html";
 
+    private ITestContext context;
+
     private ExtentReports extent;
+
+    public ITestContext getContext(){
+        return context;
+    }
 
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
         init();
@@ -52,7 +58,7 @@ public class ExtentTestNGIReporterListener implements IReporter {
             }
             for (ISuiteResult r : result.values()) {
                 ExtentTest resultNode;
-                ITestContext context = r.getTestContext();
+                context = r.getTestContext();
                 if (createSuiteResultNode) {
                     //没有创建suite的情况下，将在SuiteResult的创建为一级节点，否则创建为suite的一个子节点。
                     if (null == suiteTest) {

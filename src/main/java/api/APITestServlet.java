@@ -1,5 +1,8 @@
 package api;
 
+import date.CaseResult;
+import listen.ExtentTestNGIReporterListener;
+import org.testng.IReporter;
 import org.testng.TestNG;
 import utils.JSONUtils;
 
@@ -9,11 +12,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Set;
 
 /**
  * Created by zhuran on 2018/11/21 0021
  */
 public class APITestServlet extends HttpServlet {
+    private int pass;
+    private int fail;
+    private int skip;
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
@@ -28,8 +36,16 @@ public class APITestServlet extends HttpServlet {
         try {
             testNG.setTestClasses(new Class[]{Class.forName(request.getParameter("case"))});
             testNG.run();
+            Set<IReporter> reporterSet = testNG.getReporters();
+            for (IReporter next : reporterSet) {
+                if(next instanceof ExtentTestNGIReporterListener){
+                   pass = ((ExtentTestNGIReporterListener) next).getContext().getPassedTests().size();
+                   fail = ((ExtentTestNGIReporterListener) next).getContext().getFailedTests().size();
+                   skip = ((ExtentTestNGIReporterListener) next).getContext().getSkippedTests().size();
+                }
+            }
             response.setContentType("text/html");
-            out.println(JSONUtils.make(0,"success",""));
+            out.println(JSONUtils.make(0,"success",CaseResult.makeCaseResult(pass,fail,skip)));
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
             out.println(JSONUtils.make(-1,"error",e));

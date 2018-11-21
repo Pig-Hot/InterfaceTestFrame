@@ -116,7 +116,7 @@
                     <div class="method-list-content passed suite-Command_line_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="test.UtilsMethodTest" hash-for-method="testJDBCUtils">testJDBCUtils</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="test.UtilsMethodTest" hash-for-method="test">test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Command_line_suite -->
@@ -143,8 +143,8 @@
                   </a> <!-- testJsonUtils -->
                   <span class="method-name">testJsonUtils</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [0] but found [1]
-	at test.UtilsMethodTest.testJsonUtils(UtilsMethodTest.java:39)
-	at test.UtilsMethodTest.main(UtilsMethodTest.java:51)
+	at test.UtilsMethodTest.testJsonUtils(UtilsMethodTest.java:46)
+	at test.UtilsMethodTest.main(UtilsMethodTest.java:63)
 ... Removed 28 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -159,9 +159,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testJDBCUtils">
-                  </a> <!-- testJDBCUtils -->
-                  <span class="method-name">testJDBCUtils</span>
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -219,18 +219,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testJDBCUtils')
+data.setCell(0, 1, 'testJsonUtils')
 data.setCell(0, 2, 'test.UtilsMethodTest')
-data.setCell(0, 3, 466);
+data.setCell(0, 3, 139);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testJsonUtils')
+data.setCell(1, 1, 'test')
 data.setCell(1, 2, 'test.UtilsMethodTest')
-data.setCell(1, 3, 105);
+data.setCell(1, 3, 0);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 571 ms</span>
+              <span class="suite-total-time">Total running time: 139 ms</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -262,18 +262,18 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">testJDBCUtils</span>
-                <span class="method-start">56 ms</span>
+                <span class="method-name">test</span>
+                <span class="method-start">46 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testJsonUtils</span>
-                <span class="method-start">524 ms</span>
+                <span class="method-start">48 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">testHttpUtils</span>
-                <span class="method-start">631 ms</span>
+                <span class="method-start">188 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="1900" started-at="2018-11-20T02:13:44Z" finished-at="2018-11-20T02:13:46Z">
+  <suite name="Command line suite" duration-ms="1540" started-at="2018-11-21T05:54:31Z" finished-at="2018-11-21T05:54:33Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="1900" started-at="2018-11-20T02:13:44Z" finished-at="2018-11-20T02:13:46Z">
+    <test name="Command line test" duration-ms="1540" started-at="2018-11-21T05:54:31Z" finished-at="2018-11-21T05:54:33Z">
       <class name="test.UtilsMethodTest">
-        <test-method status="PASS" signature="testTimeUtils()[pri:0, instance:test.UtilsMethodTest@5594a1b5]" name="testTimeUtils" is-config="true" duration-ms="33" started-at="2018-11-20T02:13:44Z" finished-at="2018-11-20T02:13:44Z">
+        <test-method status="PASS" signature="testTimeUtils()[pri:0, instance:test.UtilsMethodTest@6e8dacdf]" name="testTimeUtils" is-config="true" duration-ms="25" started-at="2018-11-21T05:54:31Z" finished-at="2018-11-21T05:54:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTimeUtils -->
-        <test-method status="PASS" signature="testJDBCUtils()[pri:0, instance:test.UtilsMethodTest@5594a1b5]" name="testJDBCUtils" duration-ms="466" started-at="2018-11-20T02:13:44Z" finished-at="2018-11-20T02:13:45Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:test.UtilsMethodTest@6e8dacdf]" name="test" duration-ms="0" started-at="2018-11-21T05:54:31Z" finished-at="2018-11-21T05:54:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testJDBCUtils -->
-        <test-method status="FAIL" signature="testJsonUtils()[pri:0, instance:test.UtilsMethodTest@5594a1b5]" name="testJsonUtils" duration-ms="105" started-at="2018-11-20T02:13:45Z" finished-at="2018-11-20T02:13:45Z">
+        </test-method> <!-- test -->
+        <test-method status="FAIL" signature="testJsonUtils()[pri:0, instance:test.UtilsMethodTest@6e8dacdf]" name="testJsonUtils" duration-ms="139" started-at="2018-11-21T05:54:31Z" finished-at="2018-11-21T05:54:31Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [0] but found [1]]]>
@@ -28,7 +28,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:652)
 at org.testng.Assert.assertEquals(Assert.java:662)
-at test.UtilsMethodTest.testJsonUtils(UtilsMethodTest.java:39)
+at test.UtilsMethodTest.testJsonUtils(UtilsMethodTest.java:46)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -51,14 +51,14 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at test.UtilsMethodTest.main(UtilsMethodTest.java:51)
+at test.UtilsMethodTest.main(UtilsMethodTest.java:63)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testJsonUtils -->
-        <test-method status="PASS" signature="testHttpUtils()[pri:0, instance:test.UtilsMethodTest@5594a1b5]" name="testHttpUtils" is-config="true" duration-ms="1268" started-at="2018-11-20T02:13:45Z" finished-at="2018-11-20T02:13:46Z">
+        <test-method status="PASS" signature="testHttpUtils()[pri:0, instance:test.UtilsMethodTest@6e8dacdf]" name="testHttpUtils" is-config="true" duration-ms="1351" started-at="2018-11-21T05:54:31Z" finished-at="2018-11-21T05:54:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHttpUtils -->
