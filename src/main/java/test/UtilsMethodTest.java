@@ -3,6 +3,7 @@ package test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
+import org.testng.TestNG;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -42,6 +43,12 @@ public class UtilsMethodTest {
     public void testHttpUtils() {
         logger.info("test httputils");
         System.out.println(HttpUtils.getRequest("https://www.baidu.com/s?wd=test"));
+    }
+
+    public static void main(String[] args) {
+        TestNG testNG = new TestNG();
+        testNG.setTestClasses(new Class[]{UtilsMethodTest.class});
+        testNG.run();
     }
 
 }

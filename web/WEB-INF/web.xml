@@ -7,9 +7,17 @@
         <servlet-name>mailServlet</servlet-name>
         <servlet-class>api.SendMailServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>apiTestServlet</servlet-name>
+        <servlet-class>api.APITestServlet</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>mailServlet</servlet-name>
         <url-pattern>/mailServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>apiTestServlet</servlet-name>
+        <url-pattern>/apiServlet</url-pattern>
     </servlet-mapping>
 </web-app>
