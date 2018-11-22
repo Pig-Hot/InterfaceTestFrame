@@ -1,7 +1,6 @@
-package utils;
+package utils.conn;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import utils.conn.impl.IJdbcOperation;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -10,29 +9,22 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by zhuran on 2018/11/13 0013
- * JDBC操作数据库工具类
+ * Created by zhuran on 2018/11/22 0022
  */
-public class JDBCUtils {
-    private String user = null;
-    private String password = null;
-    private String url = null;
-    private Connection conn = null;
+public class SQLiteImpl implements IJdbcOperation {
+
+    private static SQLiteImpl db;
     private static final Object lock = new Object();
-    private static final Logger logger = LoggerFactory.getLogger(JDBCUtils.class);
+    private Connection conn;
 
-    private static JDBCUtils db;
+    private SQLiteImpl() {
 
-    private JDBCUtils(String user, String password, String url) {
-        this.user = user;
-        this.password = password;
-        this.url = url;
     }
 
-    public static JDBCUtils getInstance(String user, String pwd, String url) {
+    public static SQLiteImpl getInstance() {
         if (db == null) {
             synchronized (lock) {
-                db = new JDBCUtils(user, pwd, url);
+                db = new SQLiteImpl();
             }
         }
         return db;
@@ -40,8 +32,13 @@ public class JDBCUtils {
 
     private Connection getConn() {
         try {
-            return DriverManager.getConnection(url, user, password);
-        } catch (SQLException e) {
+            String SQLITE = "org.sqlite.JDBC";
+            Class.forName(SQLITE);
+            String PATH = "jdbc:sqlite:test.db";
+            conn = DriverManager.getConnection(PATH);
+            conn.setAutoCommit(false);
+            return conn;
+        } catch (Exception e) {
             e.printStackTrace();
             return null;
         }
@@ -142,6 +139,7 @@ public class JDBCUtils {
                 pst.setObject(paramsIndex++, p);
             }
             pst.executeUpdate();
+            conn.commit();
             return true;
         } catch (SQLException e) {
             e.printStackTrace();
@@ -163,6 +161,7 @@ public class JDBCUtils {
                 pst.setObject(paramsIndex++, p);
             }
             pst.executeUpdate();
+            conn.commit();
             return true;
         } catch (SQLException e) {
             e.printStackTrace();
@@ -184,6 +183,7 @@ public class JDBCUtils {
                 pst.setObject(paramsIndex++, p);
             }
             pst.executeUpdate();
+            conn.commit();
             return true;
         } catch (SQLException e) {
             e.printStackTrace();
