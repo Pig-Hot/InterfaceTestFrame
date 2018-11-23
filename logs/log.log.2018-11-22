@@ -1,0 +1,8 @@
+2018-11-22 18:23:32,099 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
+2018-11-22 18:23:32,128 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
+2018-11-22 18:23:32,332 [main] [listen.TestngRetry] [INFO] - Running retry for 'testJsonUtils' on class listen.TestngRetry Retrying 1 times
+2018-11-22 18:23:32,334 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
+2018-11-22 18:23:32,335 [main] [listen.TestngRetry] [INFO] - Running retry for 'testJsonUtils' on class listen.TestngRetry Retrying 2 times
+2018-11-22 18:23:32,336 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
+2018-11-22 18:23:32,347 [main] [test.UtilsMethodTest] [INFO] - test httputils
+2018-11-22 18:23:34,524 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]

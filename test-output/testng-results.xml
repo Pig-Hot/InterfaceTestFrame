@@ -6,7 +6,7 @@
     <groups>
     </groups>
     <test name="Command line test" duration-ms="1316" started-at="2018-11-21T06:32:50Z" finished-at="2018-11-21T06:32:52Z">
-      <class name="test.UtilsMethodTest">
+      <class name="test.InterfaceTestDemo">
         <test-method status="PASS" signature="testTimeUtils()[pri:0, instance:test.UtilsMethodTest@3ac3fd8b]" name="testTimeUtils" is-config="true" duration-ms="23" started-at="2018-11-21T06:32:50Z" finished-at="2018-11-21T06:32:50Z">
           <reporter-output>
           </reporter-output>
@@ -21,14 +21,14 @@
               <![CDATA[expected [0] but found [1]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [0] but found [1]
+                <![CDATA[java.lang.AssertionError: expected [0] but found [1]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:652)
 at org.testng.Assert.assertEquals(Assert.java:662)
-at test.UtilsMethodTest.testJsonUtils(UtilsMethodTest.java:46)
+at test.InterfaceTestDemo.testJsonUtils(UtilsMethodTest.java:46)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -51,7 +51,7 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at test.UtilsMethodTest.main(UtilsMethodTest.java:64)
+at test.InterfaceTestDemo.main(UtilsMethodTest.java:64)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
@@ -64,14 +64,14 @@ at test.UtilsMethodTest.main(UtilsMethodTest.java:64)
               <![CDATA[expected [0] but found [1]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [0] but found [1]
+                <![CDATA[java.lang.AssertionError: expected [0] but found [1]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:652)
 at org.testng.Assert.assertEquals(Assert.java:662)
-at test.UtilsMethodTest.testJsonUtils(UtilsMethodTest.java:46)
+at test.InterfaceTestDemo.testJsonUtils(UtilsMethodTest.java:46)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -94,7 +94,7 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at test.UtilsMethodTest.main(UtilsMethodTest.java:64)
+at test.InterfaceTestDemo.main(UtilsMethodTest.java:64)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
@@ -107,14 +107,14 @@ at test.UtilsMethodTest.main(UtilsMethodTest.java:64)
               <![CDATA[expected [0] but found [1]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [0] but found [1]
+                <![CDATA[java.lang.AssertionError: expected [0] but found [1]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:652)
 at org.testng.Assert.assertEquals(Assert.java:662)
-at test.UtilsMethodTest.testJsonUtils(UtilsMethodTest.java:46)
+at test.InterfaceTestDemo.testJsonUtils(UtilsMethodTest.java:46)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -137,7 +137,7 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at test.UtilsMethodTest.main(UtilsMethodTest.java:64)
+at test.InterfaceTestDemo.main(UtilsMethodTest.java:64)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->

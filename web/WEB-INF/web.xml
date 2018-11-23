@@ -11,7 +11,15 @@
         <servlet-name>apiTestServlet</servlet-name>
         <servlet-class>api.APITestServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>countSerlvet</servlet-name>
+        <servlet-class>api.CountSerlvet</servlet-class>
+    </servlet>
 
+    <servlet-mapping>
+        <servlet-name>countSerlvet</servlet-name>
+        <url-pattern>/countSerlvet</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>mailServlet</servlet-name>
         <url-pattern>/mailServlet</url-pattern>

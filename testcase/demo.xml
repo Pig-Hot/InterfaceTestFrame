@@ -3,18 +3,14 @@
 <suite name="InterfaceTest">
     <test name="QuicktronTestDemo">
         <classes>
-            <class name="test.UtilsMethodTest">
-                <methods>
-                    <include name="testJDBCUtils"/>
-                    <include name="testJsonUtils"/>
-                </methods>
+            <class name="test.InterfaceTestDemo">
             </class>
         </classes>
     </test>
     <listeners>
         <listener class-name="listen.ExtentTestNGIReporterListener"/>
-        <listener class-name="listen.RetryListener"/>
-        <listener class-name="org.uncommons.reportng.HTMLReporter" />
-        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+        <!--<listener class-name="listen.RetryListener"/>-->
+        <!--<listener class-name="org.uncommons.reportng.HTMLReporter" />-->
+        <!--<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />-->
     </listeners>
 </suite>

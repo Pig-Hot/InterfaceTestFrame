@@ -3,7 +3,7 @@
 <suite name="Failed suite [Command line suite]">
   <test thread-count="5" name="Command line test(failed)">
     <classes>
-      <class name="test.UtilsMethodTest">
+      <class name="test.InterfaceTestDemo">
         <methods>
           <include name="testJsonUtils"/>
           <include name="testTimeUtils"/>

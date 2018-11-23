@@ -4,20 +4,20 @@
            failures="1"
            errors="0"
            skipped="2"
-           time="0.122">
+           time="0.203">
   <properties />
-            <testcase name="testJsonUtils" time="0.000" classname="test.UtilsMethodTest">
+            <testcase name="testJsonUtils" time="0.000" classname="test.InterfaceTestDemo">
                 <failure type="java.lang.AssertionError"
                   message="expected [0] but found [1]"
               >
-<![CDATA[java.lang.AssertionError: expected [0] but found [1]
+                    <![CDATA[java.lang.AssertionError: expected [0] but found [1]
   org.testng.Assert.fail(Assert.java:96)
   org.testng.Assert.failNotEquals(Assert.java:776)
   org.testng.Assert.assertEqualsImpl(Assert.java:137)
   org.testng.Assert.assertEquals(Assert.java:118)
   org.testng.Assert.assertEquals(Assert.java:652)
   org.testng.Assert.assertEquals(Assert.java:662)
-  test.UtilsMethodTest.testJsonUtils(UtilsMethodTest.java:46)
+  test.InterfaceTestDemo.testJsonUtils(UtilsMethodTest.java:46)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -43,14 +43,14 @@
   org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
   org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
 ]]>
-      </failure>
+                </failure>
 
           </testcase>
   
-            <testcase name="testJsonUtils" time="0.0" classname="test.UtilsMethodTest">
+            <testcase name="testJsonUtils" time="0.0" classname="test.InterfaceTestDemo">
           <skipped />
     </testcase>
-            <testcase name="testJsonUtils" time="0.0" classname="test.UtilsMethodTest">
+            <testcase name="testJsonUtils" time="0.0" classname="test.InterfaceTestDemo">
           <skipped />
     </testcase>
   
