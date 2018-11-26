@@ -1,25 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="InterfaceTest" duration-ms="811" started-at="2018-11-21T08:57:27Z" finished-at="2018-11-21T08:57:27Z">
+  <suite name="InterfaceTest" duration-ms="1256" started-at="2018-11-23T09:35:50Z" finished-at="2018-11-23T09:35:51Z">
     <groups>
     </groups>
-    <test name="QuicktronTestDemo" duration-ms="811" started-at="2018-11-21T08:57:27Z" finished-at="2018-11-21T08:57:27Z">
-      <class name="test.UtilsMethodTest">
-        <test-method status="PASS" signature="testTimeUtils()[pri:0, instance:test.UtilsMethodTest@6325a3ee]" name="testTimeUtils" is-config="true" duration-ms="15" started-at="2018-11-21T08:57:27Z" finished-at="2018-11-21T08:57:27Z">
+    <test name="QuicktronTestDemo" duration-ms="1256" started-at="2018-11-23T09:35:50Z" finished-at="2018-11-23T09:35:51Z">
+      <class name="test.InterfaceTestDemo">
+        <test-method status="PASS" signature="login(java.util.Map)[pri:0, instance:test.InterfaceTestDemo@4c70fda8]" name="login" duration-ms="557" started-at="2018-11-23T09:35:50Z" data-provider="test" finished-at="2018-11-23T09:35:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{apiCaseName=case1, apiUrl=http://localhost:8080/countSerlvet, getResult=, apiDate=, Expectation=1, apiProtocol=Http, apiType=Get, apiHead=}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTimeUtils -->
-        <test-method status="PASS" signature="testJsonUtils()[pri:0, instance:test.UtilsMethodTest@6325a3ee]" name="testJsonUtils" duration-ms="103" started-at="2018-11-21T08:57:27Z" finished-at="2018-11-21T08:57:27Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.util.Map)[pri:0, instance:test.InterfaceTestDemo@4c70fda8]" name="login" duration-ms="12" started-at="2018-11-23T09:35:51Z" data-provider="test" finished-at="2018-11-23T09:35:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{apiCaseName=case2, apiUrl=http://localhost:8080/countSerlvet, getResult=, apiDate=x=1&y=2, Expectation=3, apiProtocol=Http, apiType=Post, apiHead=application/x-www-form-urlencoded}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testJsonUtils -->
-        <test-method status="PASS" signature="testHttpUtils()[pri:0, instance:test.UtilsMethodTest@6325a3ee]" name="testHttpUtils" is-config="true" duration-ms="678" started-at="2018-11-21T08:57:27Z" finished-at="2018-11-21T08:57:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testHttpUtils -->
-      </class> <!-- test.UtilsMethodTest -->
+        </test-method> <!-- login -->
+      </class> <!-- test.InterfaceTestDemo -->
     </test> <!-- QuicktronTestDemo -->
   </suite> <!-- InterfaceTest -->
 </testng-results>

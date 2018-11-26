@@ -1,6 +1,6 @@
 package api;
 
-import date.ResultEnum;
+import data.ResultEnum;
 import utils.JSONUtils;
 import utils.SendMailUtils;
 

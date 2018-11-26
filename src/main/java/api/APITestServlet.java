@@ -1,7 +1,7 @@
 package api;
 
-import date.CaseResult;
-import date.ResultEnum;
+import data.CaseResult;
+import data.ResultEnum;
 import listen.ExtentTestNGIReporterListener;
 import listen.RetryListener;
 import org.testng.IReporter;

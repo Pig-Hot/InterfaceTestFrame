@@ -1,33 +1,14 @@
-2018-11-23 11:54:15,833 [main] [factory.impl.WebSocketRequest] [ERROR] - java.lang.RuntimeException: Could not find an implementation class.
-2018-11-23 13:04:04,726 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
-2018-11-23 13:04:06,246 [main] [utils.HttpUtils] [INFO] - GET request succeeds[http://localhost:8080/countSerlvet]
-2018-11-23 13:04:06,268 [main] [utils.HttpUtils] [INFO] - POST request succeeds[http://localhost:8080/countSerlvet]
-2018-11-23 13:04:06,271 [main] [test.UtilsMethodTest] [INFO] - test httputils
-2018-11-23 13:04:06,495 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]
-2018-11-23 13:09:12,387 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
-2018-11-23 13:09:13,275 [main] [utils.HttpUtils] [INFO] - GET request succeeds[http://localhost:8080/countSerlvet]
-2018-11-23 13:09:13,290 [main] [utils.HttpUtils] [INFO] - POST request succeeds[http://localhost:8080/countSerlvet]
-2018-11-23 13:09:13,293 [main] [test.UtilsMethodTest] [INFO] - test httputils
-2018-11-23 13:09:13,520 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]
-2018-11-23 13:09:49,404 [main] [utils.HttpUtils] [INFO] - GET request succeeds[http://localhost:8080/countSerlvet]
-2018-11-23 13:09:49,424 [main] [utils.HttpUtils] [INFO] - POST request succeeds[http://localhost:8080/countSerlvet]
-2018-11-23 13:20:13,772 [main] [utils.HttpUtils] [INFO] - GET request succeeds[http://localhost:8080/countSerlvet]
-2018-11-23 13:20:13,787 [main] [utils.HttpUtils] [INFO] - POST request succeeds[http://localhost:8080/countSerlvet]
-2018-11-23 16:29:43,185 [main] [factory.abst.impl.HttpPostRequest] [ERROR] - GET request failed[http://localhost:8080/countSerlvet]
-2018-11-23 16:30:19,053 [main] [factory.abst.impl.HttpPostRequest] [INFO] - GET request succeeds[http://localhost:8080/countSerlvet]
-2018-11-23 16:31:07,691 [main] [factory.abst.impl.HttpPostRequest] [INFO] - GET request succeeds[http://localhost:8080/countSerlvet]
-2018-11-23 16:33:22,552 [main] [factory.abst.impl.HttpPostRequest] [INFO] - GET request succeeds[http://localhost:8080/countSerlvet]
-2018-11-23 16:45:23,619 [main] [factory.abst.impl.HttpPostRequest] [INFO] - GET request succeeds[http://localhost:8080/countSerlvet]
-2018-11-23 16:45:23,659 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://localhost:8080/countSerlvet]
-2018-11-23 16:46:23,630 [main] [factory.abst.impl.HttpPostRequest] [ERROR] - GET request failed[http://localhost:8080/countSerlvet]
-2018-11-23 16:46:24,656 [main] [factory.abst.impl.HttpPostRequest] [ERROR] - POST request failed[http://localhost:8080/countSerlvet]
-2018-11-23 16:48:10,831 [main] [factory.abst.impl.HttpPostRequest] [INFO] - GET request succeeds[http://localhost:8080/countSerlvet]
-2018-11-23 16:48:10,858 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://localhost:8080/countSerlvet]
-2018-11-23 16:50:59,980 [main] [factory.abst.impl.HttpPostRequest] [INFO] - GET request succeeds[http://localhost:8080/countSerlvet]
-2018-11-23 16:51:00,003 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://localhost:8080/countSerlvet]
-2018-11-23 16:57:15,274 [main] [factory.abst.impl.HttpGetRequest] [INFO] - GET request succeeds[http://localhost:8080/countSerlvet]
-2018-11-23 16:57:15,279 [main] [test.InterfaceTestDemo] [INFO] - Expectation:1
-2018-11-23 16:57:15,283 [main] [test.InterfaceTestDemo] [INFO] - Actual:1
-2018-11-23 16:57:15,303 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://localhost:8080/countSerlvet]
-2018-11-23 16:57:15,304 [main] [test.InterfaceTestDemo] [INFO] - Expectation:3
-2018-11-23 16:57:15,305 [main] [test.InterfaceTestDemo] [INFO] - Actual:3
+2018-11-26 09:34:05,818 [main] [factory.abst.impl.HttpGetRequest] [INFO] - GET request succeeds[http://localhost:8080/countSerlvet]
+2018-11-26 09:34:05,829 [main] [test.InterfaceTestDemo] [INFO] - Expectation:{"data":"1","errMsg":"0","errNo":"0"}
+2018-11-26 09:34:05,829 [main] [test.InterfaceTestDemo] [INFO] - Actual:{"data":"1","errMsg":"0","errNo":"0"}
+2018-11-26 09:34:05,858 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://localhost:8080/countSerlvet]
+2018-11-26 09:35:14,041 [main] [factory.abst.impl.HttpGetRequest] [INFO] - GET request succeeds[http://localhost:8080/countSerlvet]
+2018-11-26 09:35:16,048 [main] [test.InterfaceTestDemo] [INFO] - Expectation:{"data":"1","errMsg":"0","errNo":"0"}
+2018-11-26 09:35:16,049 [main] [test.InterfaceTestDemo] [INFO] - Actual:{"data":"1","errMsg":"0","errNo":"0"}
+2018-11-26 09:36:46,023 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://localhost:8080/countSerlvet]
+2018-11-26 09:36:55,015 [main] [factory.abst.impl.HttpGetRequest] [INFO] - GET request succeeds[http://localhost:8080/countSerlvet]
+2018-11-26 09:36:55,024 [main] [test.InterfaceTestDemo] [INFO] - Expectation:{"data":"1","errMsg":"0","errNo":"0"}
+2018-11-26 09:36:55,024 [main] [test.InterfaceTestDemo] [INFO] - Actual:{"data":"1","errMsg":"0","errNo":"0"}
+2018-11-26 09:36:55,045 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://localhost:8080/countSerlvet]
+2018-11-26 09:36:55,046 [main] [test.InterfaceTestDemo] [INFO] - Expectation:3
+2018-11-26 09:36:55,046 [main] [test.InterfaceTestDemo] [INFO] - Actual:3
