@@ -1,4 +1,4 @@
-package utils.conn.impl;
+package utils.conn;
 
 import java.util.List;
 import java.util.Map;

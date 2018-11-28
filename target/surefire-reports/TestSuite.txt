@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.323 sec - in TestSuite
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 3.394 sec <<< FAILURE! - in TestSuite
+interfaceTest(test.InterfaceTestDemo)  Time elapsed: 1.681 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at test.InterfaceTestDemo.interfaceTest(InterfaceTestDemo.java:47)
+
+interfaceTest(test.InterfaceTestDemo)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at test.InterfaceTestDemo.interfaceTest(InterfaceTestDemo.java:42)
+

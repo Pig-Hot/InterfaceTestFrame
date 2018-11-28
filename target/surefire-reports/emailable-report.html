@@ -9,11 +9,28 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">InterfaceTest</th></tr>
-<tr><td><a href="#t0">QuicktronTestDemo</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">1,256</td><td></td><td></td></tr>
+<tr><td><a href="#t0">QuicktronTestDemo</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">2,282</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">InterfaceTest</th></tr></tbody><tbody id="t0"><tr><th colspan="4">QuicktronTestDemo &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">test.InterfaceTestDemo</td><td><a href="#m0">login</a></td><td rowspan="2">1542965750906</td><td rowspan="2">557</td></tr><tr class="passedeven"><td><a href="#m1">login</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">InterfaceTest</th></tr></tbody><tbody id="t0"><tr><th colspan="4">QuicktronTestDemo &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">test.InterfaceTestDemo</td><td><a href="#m0">interfaceTest</a></td><td rowspan="2">1543303292592</td><td rowspan="2">1581</td></tr><tr class="failedeven"><td><a href="#m1">interfaceTest</a></td></tr></tbody>
 </table>
-<h2>QuicktronTestDemo</h2><h3 id="m0">test.InterfaceTestDemo#login</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{apiCaseName=case1, apiUrl=http://localhost:8080/countSerlvet, getResult=, apiDate=, Expectation=1, apiProtocol=Http, apiType=Get, apiHead=}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">test.InterfaceTestDemo#login</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{apiCaseName=case2, apiUrl=http://localhost:8080/countSerlvet, getResult=, apiDate=x=1&amp;y=2, Expectation=3, apiProtocol=Http, apiType=Post, apiHead=application/x-www-form-urlencoded}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>QuicktronTestDemo</h2><h3 id="m0">test.InterfaceTestDemo#interfaceTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{apiCaseName=case1, apiUrl=http://localhost:8080/countSerlvet, apiData=, getResult=data, Expectation={&quot;data&quot;:&quot;1&quot;,&quot;errMsg&quot;:&quot;0&quot;,&quot;errNo&quot;:&quot;0&quot;}, apiProtocol=Http, apiType=Get, apiHead=}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at java.util.regex.Matcher.getTextLength(Matcher.java:1283)
+	at java.util.regex.Matcher.reset(Matcher.java:309)
+	at java.util.regex.Matcher.&lt;init&gt;(Matcher.java:229)
+	at java.util.regex.Pattern.matcher(Pattern.java:1093)
+	at data.ResultData.getResultData(ResultData.java:14)
+	at test.InterfaceTestDemo.interfaceTest(InterfaceTestDemo.java:47)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">test.InterfaceTestDemo#interfaceTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{apiCaseName=case2, apiUrl=http://localhost:8080/countSerlvet, apiData=x=|data|&amp;y=2, getResult=, Expectation=3, apiProtocol=Http, apiType=Post, apiHead=application/x-www-form-urlencoded}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at java.lang.String.replace(String.java:2240)
+	at data.ResultData.replaceResultData(ResultData.java:32)
+	at test.InterfaceTestDemo.interfaceTest(InterfaceTestDemo.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

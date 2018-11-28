@@ -1,8 +1,8 @@
-package utils.conn;
+package utils.conn.impl;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import utils.conn.impl.IJdbcOperation;
+import utils.conn.IJdbcOperation;
 
 import java.sql.*;
 import java.util.ArrayList;

@@ -1,14 +1,9 @@
-2018-11-26 09:34:05,818 [main] [factory.abst.impl.HttpGetRequest] [INFO] - GET request succeeds[http://localhost:8080/countSerlvet]
-2018-11-26 09:34:05,829 [main] [test.InterfaceTestDemo] [INFO] - Expectation:{"data":"1","errMsg":"0","errNo":"0"}
-2018-11-26 09:34:05,829 [main] [test.InterfaceTestDemo] [INFO] - Actual:{"data":"1","errMsg":"0","errNo":"0"}
-2018-11-26 09:34:05,858 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://localhost:8080/countSerlvet]
-2018-11-26 09:35:14,041 [main] [factory.abst.impl.HttpGetRequest] [INFO] - GET request succeeds[http://localhost:8080/countSerlvet]
-2018-11-26 09:35:16,048 [main] [test.InterfaceTestDemo] [INFO] - Expectation:{"data":"1","errMsg":"0","errNo":"0"}
-2018-11-26 09:35:16,049 [main] [test.InterfaceTestDemo] [INFO] - Actual:{"data":"1","errMsg":"0","errNo":"0"}
-2018-11-26 09:36:46,023 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://localhost:8080/countSerlvet]
-2018-11-26 09:36:55,015 [main] [factory.abst.impl.HttpGetRequest] [INFO] - GET request succeeds[http://localhost:8080/countSerlvet]
-2018-11-26 09:36:55,024 [main] [test.InterfaceTestDemo] [INFO] - Expectation:{"data":"1","errMsg":"0","errNo":"0"}
-2018-11-26 09:36:55,024 [main] [test.InterfaceTestDemo] [INFO] - Actual:{"data":"1","errMsg":"0","errNo":"0"}
-2018-11-26 09:36:55,045 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://localhost:8080/countSerlvet]
-2018-11-26 09:36:55,046 [main] [test.InterfaceTestDemo] [INFO] - Expectation:3
-2018-11-26 09:36:55,046 [main] [test.InterfaceTestDemo] [INFO] - Actual:3
+2018-11-27 14:42:31,154 [main] [factory.abst.impl.WebSocketRequest] [ERROR] - java.lang.RuntimeException: Could not find an implementation class.
+2018-11-27 14:49:13,499 [main] [factory.abst.impl.WebSocketRequest] [ERROR] - java.lang.RuntimeException: Could not find an implementation class.
+2018-11-27 14:49:32,529 [main] [factory.abst.impl.WebSocketRequest] [ERROR] - java.lang.RuntimeException: Could not find an implementation class.
+2018-11-27 14:50:22,937 [main] [factory.abst.impl.WebSocketRequest] [ERROR] - java.lang.RuntimeException: Could not find an implementation class.
+2018-11-27 14:51:40,957 [main] [factory.abst.impl.WebSocketRequest] [ERROR] - java.lang.RuntimeException: Could not find an implementation class.
+2018-11-27 14:52:55,501 [main] [factory.abst.impl.WebSocketRequest] [ERROR] - java.lang.RuntimeException: Could not find an implementation class.
+2018-11-27 14:53:08,587 [main] [factory.abst.impl.WebSocketRequest] [ERROR] - java.lang.RuntimeException: Could not find an implementation class.
+2018-11-27 14:53:33,581 [main] [factory.abst.impl.WebSocketRequest] [ERROR] - java.lang.RuntimeException: Could not find an implementation class.
+2018-11-27 15:21:34,166 [TestNG-suites-1] [factory.abst.impl.HttpGetRequest] [ERROR] - GET request failed[http://localhost:8080/countSerlvet]

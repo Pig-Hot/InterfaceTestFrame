@@ -1,6 +1,6 @@
-package utils.conn;
+package utils.conn.impl;
 
-import utils.conn.impl.IJdbcOperation;
+import utils.conn.IJdbcOperation;
 
 import java.sql.*;
 import java.util.ArrayList;

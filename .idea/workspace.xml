@@ -8,47 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ed5553b2-bfd2-4c09-b0e5-e4d75d2e4553" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/casedata/ApiTestCase.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/casedata/ApiTestCase.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QuicktronInterfaceFrame_Web_exploded/WEB-INF/classes/api/APITestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QuicktronInterfaceFrame_Web_exploded/WEB-INF/classes/api/APITestServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QuicktronInterfaceFrame_Web_exploded/WEB-INF/classes/api/CountSerlvet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QuicktronInterfaceFrame_Web_exploded/WEB-INF/classes/api/CountSerlvet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QuicktronInterfaceFrame_Web_exploded/WEB-INF/classes/api/SendMailServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QuicktronInterfaceFrame_Web_exploded/WEB-INF/classes/api/SendMailServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QuicktronInterfaceFrame_Web_exploded/WEB-INF/classes/date/CaseResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QuicktronInterfaceFrame_Web_exploded/WEB-INF/classes/date/JsonResultDate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QuicktronInterfaceFrame_Web_exploded/WEB-INF/classes/date/ResultEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QuicktronInterfaceFrame_Web_exploded/WEB-INF/classes/listen/ExtentTestNGIReporterListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QuicktronInterfaceFrame_Web_exploded/WEB-INF/classes/listen/ExtentTestNGIReporterListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QuicktronInterfaceFrame_Web_exploded/WEB-INF/classes/test/InterfaceTestDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QuicktronInterfaceFrame_Web_exploded/WEB-INF/classes/test/InterfaceTestDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/APITestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/APITestServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/CountSerlvet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/CountSerlvet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/SendMailServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/SendMailServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/CaseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/CaseResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/ResultData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/ResultData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/ResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/ResultEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/InterfaceTestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/InterfaceTestDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/APITestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/APITestServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/CountSerlvet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/CountSerlvet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/SendMailServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/SendMailServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/date/CaseResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/date/JsonResultDate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/date/ResultEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/listen/ExtentTestNGIReporterListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/listen/ExtentTestNGIReporterListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/InterfaceTestDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/InterfaceTestDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/InterfaceTest/QuicktronTestDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/InterfaceTest/QuicktronTestDemo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/InterfaceTest/QuicktronTestDemo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/InterfaceTest/QuicktronTestDemo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/InterfaceTest/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/InterfaceTest/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/InterfaceTest/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/InterfaceTest/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/InterfaceTest/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/InterfaceTest/methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/InterfaceTest/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/InterfaceTest/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/InterfaceTest/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/InterfaceTest/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/InterfaceTest/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/InterfaceTest/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-report/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -70,33 +31,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InterfaceTestDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/InterfaceTestDemo.java">
+      <file leaf-file-name="WebSocketRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/factory/abst/impl/WebSocketRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="274">
+              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#691#707#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Invoker.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
+      <file leaf-file-name="ContainerProvider.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0-sources.jar!/javax/websocket/ContainerProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="611" selection-start-line="611" selection-end-line="611" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+            <state relative-caret-position="230">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
             </state>
           </provider>
         </entry>
@@ -110,11 +61,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SendMailUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/SendMailUtils.java">
+      <file leaf-file-name="IRequestFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/factory/IRequestFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1127">
-              <caret line="53" column="40" lean-forward="true" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+            <state relative-caret-position="138">
+              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuciktronInterfaceFrame.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QuciktronInterfaceFrame.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="117" column="62" lean-forward="true" selection-start-line="117" selection-start-column="62" selection-end-line="117" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcase/demo.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SQLiteImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/conn/SQLiteImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-345">
+              <caret line="146" column="19" lean-forward="true" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,81 +114,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="APITestServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/api/APITestServlet.java">
+      <file leaf-file-name="AbstractHttpRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/factory/abst/AbstractHttpRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="368">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestNG.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/TestNG.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="1136" selection-start-line="1136" selection-end-line="1136" />
-              <folding>
-                <element signature="e#33705#33706#0" expanded="true" />
-                <element signature="e#33740#33741#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountSerlvet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/api/CountSerlvet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResultData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/data/ResultData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/NewTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-628">
-              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-              <folding>
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#643#644#0" expanded="true" />
-                <element signature="e#690#691#0" expanded="true" />
-                <element signature="e#734#735#0" expanded="true" />
-                <element signature="e#779#780#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
-                <element signature="e#867#868#0" expanded="true" />
-                <element signature="e#909#910#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
-                <element signature="e#993#994#0" expanded="true" />
-                <element signature="e#867#868#0" expanded="true" />
-                <element signature="e#916#917#0" expanded="true" />
-                <element signature="e#971#972#0" expanded="true" />
-                <element signature="e#1020#1021#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -217,7 +141,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ITestNGListener</find>
-      <find />
+      <find>Test pass</find>
       <find>attachReporter</find>
       <find>time</find>
       <find>re</find>
@@ -248,10 +172,8 @@
         <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/date/ResultEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/JSONUtils.java" />
-        <option value="$PROJECT_DIR$/README.txt" />
         <option value="$PROJECT_DIR$/src/main/java/date/CaseResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/api/SendMailServlet.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/utils/JDBCUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/TestConn.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/SQLiteTest.java" />
@@ -281,7 +203,6 @@
         <option value="$PROJECT_DIR$/src/main/java/factory/abst/impl/HttpPostRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/ExcelResultUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory/IRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factory/abst/impl/WebSocketRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory/abst/AbstractHttpRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory/impl/RequestFactoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/UtilsMethodTest.java" />
@@ -294,6 +215,9 @@
         <option value="$PROJECT_DIR$/src/main/java/api/CountSerlvet.java" />
         <option value="$PROJECT_DIR$/src/main/java/data/ResultData.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/InterfaceTestDemo.java" />
+        <option value="$PROJECT_DIR$/README.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/factory/abst/impl/WebSocketRequest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -336,7 +260,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1" />
     <option name="y" value="1" />
     <option name="width" value="1598" />
@@ -351,8 +275,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -494,6 +416,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -539,7 +463,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.InterfaceTestDemo.interfaceTest">
+  <component name="RunManager" selected="Application.WebSocketRequest">
     <configuration name="ResultData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="data.ResultData" />
       <module name="QuicktronInterfaceFrame" />
@@ -547,6 +471,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="WebSocketRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="factory.abst.impl.WebSocketRequest" />
+      <module name="QuicktronInterfaceFrame" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factory.abst.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -657,35 +592,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="NewTest.f2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QuicktronInterfaceFrame" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.NewTest" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.NewTest" />
-      <option name="METHOD_NAME" value="f2" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -783,17 +689,17 @@
       <item itemvalue="Tomcat Server.Unnamed" />
       <item itemvalue="TestNG.InterfaceTestDemo.login" />
       <item itemvalue="Application.ResultData" />
-      <item itemvalue="TestNG.NewTest.f2" />
       <item itemvalue="TestNG.NewTest" />
       <item itemvalue="TestNG.InterfaceTestDemo.interfaceTest" />
+      <item itemvalue="Application.WebSocketRequest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WebSocketRequest" />
         <item itemvalue="TestNG.InterfaceTestDemo.interfaceTest" />
         <item itemvalue="Application.ResultData" />
         <item itemvalue="TestNG.InterfaceTestDemo.login" />
         <item itemvalue="TestNG.NewTest" />
-        <item itemvalue="TestNG.NewTest.f2" />
       </list>
     </recent_temporary>
   </component>
@@ -810,23 +716,12 @@
       <workItem from="1542078404818" duration="7318000" />
       <workItem from="1542088894916" duration="3886000" />
       <workItem from="1542093401380" duration="37149000" />
-      <workItem from="1542775696670" duration="59923000" />
+      <workItem from="1542775696670" duration="63371000" />
+      <workItem from="1543207304584" duration="12381000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InterfaceTestDemo_interfaceTest - 2018.11.23 at 18h 32m 38s.xml">
-      <configuration name="InterfaceTestDemo.interfaceTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="InterfaceTestDemo_interfaceTest - 2018.11.23 at 18h 33m 43s.xml">
-      <configuration name="InterfaceTestDemo.interfaceTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="InterfaceTestDemo_interfaceTest - 2018.11.23 at 18h 35m 53s.xml">
-      <configuration name="InterfaceTestDemo.interfaceTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="InterfaceTestDemo_interfaceTest - 2018.11.23 at 18h 37m 16s.xml">
-      <configuration name="InterfaceTestDemo.interfaceTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="InterfaceTestDemo_interfaceTest - 2018.11.23 at 18h 37m 59s.xml">
       <configuration name="InterfaceTestDemo.interfaceTest" configurationId="TestNG" />
     </history-entry>
@@ -845,9 +740,21 @@
     <history-entry file="InterfaceTestDemo_interfaceTest - 2018.11.23 at 18h 45m 42s.xml">
       <configuration name="InterfaceTestDemo.interfaceTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="InterfaceTestDemo_interfaceTest - 2018.11.26 at 09h 34m 06s.xml">
+      <configuration name="InterfaceTestDemo.interfaceTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InterfaceTestDemo_interfaceTest - 2018.11.26 at 09h 36m 46s.xml">
+      <configuration name="InterfaceTestDemo.interfaceTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InterfaceTestDemo_interfaceTest - 2018.11.26 at 09h 36m 56s.xml">
+      <configuration name="InterfaceTestDemo.interfaceTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="InterfaceTestDemo_interfaceTest - 2018.11.26 at 11h 42m 19s.xml">
+      <configuration name="InterfaceTestDemo.interfaceTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124892000" />
+    <option name="totallyTimeSpent" value="140721000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -863,7 +770,7 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="19" sideWeight="0.24100257" side_tool="true" weight="0.5230352" />
+      <window_info anchor="bottom" id="Event Log" order="19" sideWeight="0.5025707" side_tool="true" visible="true" weight="0.18292683" />
       <window_info anchor="bottom" id="Application Servers" order="28" weight="0.3292683" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32987013" />
       <window_info anchor="bottom" id="Database Changes" order="20" show_stripe_button="false" />
@@ -873,28 +780,28 @@
       <window_info id="Structure" order="1" sideWeight="0.504717" side_tool="true" weight="0.28246754" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.75899744" weight="0.5176152" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.7583548" weight="0.5176152" />
       <window_info anchor="bottom" id="TODO" order="17" weight="0.20867209" />
-      <window_info anchor="bottom" id="Messages" order="22" sideWeight="0.49871466" weight="0.3116531" />
+      <window_info anchor="bottom" id="Messages" order="22" sideWeight="0.4974293" weight="0.3116531" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" sideWeight="0.6748072" weight="0.32655826" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.7384319" weight="0.42547426" />
-      <window_info anchor="bottom" id="Version Control" order="23" weight="0.35501355" />
-      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.50212765" side_tool="true" weight="0.32904884" />
-      <window_info anchor="bottom" id="Terminal" order="25" sideWeight="0.49807197" visible="true" weight="0.32655826" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.495283" visible="true" weight="0.22557841" />
+      <window_info anchor="bottom" id="Version Control" order="23" weight="0.17344174" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.73714656" weight="0.3387534" />
+      <window_info anchor="bottom" id="Terminal" order="25" sideWeight="0.4974293" visible="true" weight="0.18292683" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.495283" visible="true" weight="0.2281491" />
       <window_info id="Web" order="5" sideWeight="0.504717" side_tool="true" weight="0.28246754" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.41192412" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="6" sideWeight="0.504717" side_tool="true" weight="0.28246754" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.50212765" side_tool="true" weight="0.32904884" />
       <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="right" id="Bean Validation" order="10" sideWeight="0.49787235" weight="0.32904884" />
       <window_info anchor="bottom" id="Thumbnails" order="27" weight="0.3292683" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Problems" order="26" weight="0.32791328" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.41192412" />
       <window_info anchor="bottom" id="Spring" order="24" weight="0.32686982" />
       <window_info anchor="bottom" id="Dependency Viewer" order="21" weight="0.32963988" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -950,69 +857,52 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/data/ResultData.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/data/ResultData.java</url>
           <line>31</line>
           <properties />
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/test/InterfaceTestDemo.java</url>
-          <line>43</line>
+          <url>jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.jar!/javax/websocket/ContainerProvider.class</url>
+          <line>21</line>
           <properties />
-          <option name="timeStamp" value="74" />
+          <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/test/InterfaceTestDemo.java</url>
-          <line>46</line>
+          <url>jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.jar!/javax/websocket/ContainerProvider.class</url>
+          <line>16</line>
           <properties />
-          <option name="timeStamp" value="75" />
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/test/InterfaceTestDemo.java</url>
-          <line>40</line>
+          <url>jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.jar!/javax/websocket/ContainerProvider.class</url>
+          <line>19</line>
           <properties />
-          <option name="timeStamp" value="76" />
+          <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/test/InterfaceTestDemo.java</url>
-          <line>41</line>
+          <url>jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0-sources.jar!/javax/websocket/ContainerProvider.java</url>
+          <line>64</line>
           <properties />
-          <option name="timeStamp" value="77" />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0-sources.jar!/javax/websocket/ContainerProvider.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0-sources.jar!/javax/websocket/ContainerProvider.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="86" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="78" />
+      <option name="time" value="87" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/sql/PreparedStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="94" column="8" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/TestConn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/SQLiteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/SQLiteTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -1020,43 +910,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/QuciktronInterfaceFrame.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/Protocol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/ProtocolFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/impl/HttpXmlRequest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/Protocol.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/ProtocolFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/Main.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.jar!/javax/websocket/RemoteEndpoint.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -1064,13 +920,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/Test.java" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -1082,9 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="33" column="29" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1109,13 +956,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/handler/HttpRequestHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/handler/HttpRequestHandle.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/JSONUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
@@ -1126,34 +967,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="122" column="42" selection-start-line="122" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/demo.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.10.1/poi-3.10.1.jar!/org/apache/poi/ss/usermodel/Workbook.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/ExcelIteratorUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1174,16 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/conn/SQLiteImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="146" column="19" lean-forward="true" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -1201,92 +1008,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/data/CaseResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/data/ResultEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/abst/impl/HttpGetRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="26" column="53" lean-forward="true" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/abst/impl/HttpPostRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="21" column="61" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/abst/impl/WebSocketRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="22" column="65" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/abst/AbstractHttpRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/abst/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/factory/impl/RequestFactoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
           <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/IRequestFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/listen/ExtentTestNGIReporterListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#972#973#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1313,53 +1040,15 @@
         <state relative-caret-position="230">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/NewTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-628">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
             <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/api/CountSerlvet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/TestNG.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="23414">
           <caret line="1136" selection-start-line="1136" selection-end-line="1136" />
           <folding>
             <element signature="e#33705#33706#0" expanded="true" />
@@ -1370,8 +1059,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/SendMailUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1127">
-          <caret line="53" column="40" lean-forward="true" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+        <state relative-caret-position="1081">
+          <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1380,8 +1069,126 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/api/APITestServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
+        <state relative-caret-position="644">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4255">
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13064">
+          <caret line="611" selection-start-line="611" selection-end-line="611" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/NewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+          <folding>
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/CountSerlvet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/InterfaceTestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="48" column="60" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/data/CaseResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/data/ResultData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/data/ResultEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/listen/ExtentTestNGIReporterListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/ExcelIteratorUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/abst/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/abst/impl/HttpGetRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/abst/impl/HttpPostRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="21" column="61" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1395,38 +1202,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Map.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/IRequestFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        <state relative-caret-position="138">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/data/ResultData.java">
+    <entry file="file://$PROJECT_DIR$/QuciktronInterfaceFrame.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="207">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.jar!/javax/websocket/ContainerProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0-sources.jar!/javax/websocket/ContainerProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/abst/impl/WebSocketRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="611" selection-start-line="611" selection-end-line="611" />
+    <entry file="uml://MODULES/mdl-QuicktronInterfaceFrame">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-QuicktronInterfaceFrame</OriginalElement>
+          <nodes>
+            <node x="" y="">lib-Maven: org.freemarker:freemarker:2.3.23</node>
+            <node x="" y="">lib-Maven: org.apache-extras.beanshell:bsh:2.0b6</node>
+            <node x="" y="">lib-Maven: org.apache.httpcomponents:httpclient:4.5.3</node>
+            <node x="" y="">lib-Maven: org.mongodb:mongodb-driver:3.3.0</node>
+            <node x="" y="">lib-Maven: org.apache.poi:poi-ooxml-schemas:3.10.1</node>
+            <node x="" y="">lib-Maven: org.mongodb:mongodb-driver-core:3.3.0</node>
+            <node x="" y="">lib-Maven: org.testng:testng:6.14.3</node>
+            <node x="" y="">lib-Maven: velocity:velocity-dep:1.4</node>
+            <node x="" y="">lib-Maven: javax.websocket:javax.websocket-api:1.0</node>
+            <node x="" y="">lib-Maven: log4j:log4j:1.2.17</node>
+            <node x="" y="">lib-Maven: org.apache.xmlbeans:xmlbeans:2.6.0</node>
+            <node x="" y="">lib-Maven: commons-codec:commons-codec:1.9</node>
+            <node x="" y="">lib-Maven: javax.servlet:javax.servlet-api:3.1.0</node>
+            <node x="" y="">lib-Maven: stax:stax-api:1.0.1</node>
+            <node x="" y="">lib-Maven: com.google.inject:guice:3.0</node>
+            <node x="" y="">lib-Maven: javax.mail:javax.mail-api:1.6.2</node>
+            <node x="" y="">lib-Maven: xml-apis:xml-apis:1.0.b2</node>
+            <node x="" y="">mdl-QuicktronInterfaceFrame</node>
+            <node x="" y="">lib-Maven: aopalliance:aopalliance:1.0</node>
+            <node x="" y="">lib-bootstrap</node>
+            <node x="" y="">lib-Maven: com.aventstack:extentreports:3.1.1</node>
+            <node x="" y="">lib-Maven: org.jsoup:jsoup:1.9.2</node>
+            <node x="" y="">lib-Maven: commons-logging:commons-logging:1.2</node>
+            <node x="" y="">lib-jquery-3.1.1</node>
+            <node x="" y="">lib-Maven: org.apache.httpcomponents:httpcore:4.4.6</node>
+            <node x="" y="">lib-Maven: org.mongodb:bson:3.3.0</node>
+            <node x="" y="">lib-Maven: org.apache.poi:poi:3.10.1</node>
+            <node x="" y="">lib-Maven: ch.ethz.ganymed:ganymed-ssh2:262</node>
+            <node x="" y="">lib-Maven: org.slf4j:slf4j-api:1.7.25</node>
+            <node x="" y="">lib-Maven: org.uncommons:reportng:1.1.4</node>
+            <node x="" y="">lib-Maven: org.xerial:sqlite-jdbc:3.25.2</node>
+            <node x="" y="">lib-Maven: org.apache.httpcomponents:httpmime:4.5.2</node>
+            <node x="" y="">lib-Maven: org.apache.poi:poi-ooxml:3.10.1</node>
+            <node x="" y="">lib-Maven: com.sun.mail:mailapi:1.6.2</node>
+            <node x="" y="">lib-Maven: com.google.code.gson:gson:2.8.0</node>
+            <node x="" y="">lib-Maven: velocity:velocity:1.4</node>
+            <node x="" y="">lib-Maven: javax.inject:javax.inject:1</node>
+            <node x="" y="">lib-Maven: com.google.protobuf:protobuf-java:2.6.0</node>
+            <node x="" y="">lib-Maven: com.beust:jcommander:1.72</node>
+            <node x="" y="">lib-Maven: dom4j:dom4j:1.6.1</node>
+            <node x="" y="">lib-Maven: mysql:mysql-connector-java:8.0.11</node>
+            <node x="" y="">lib-Maven: org.slf4j:slf4j-log4j12:1.7.25</node>
+            <node x="" y="">lib-Maven: com.alibaba:fastjson:1.1.41</node>
+            <node x="" y="">lib-Maven: com.sun.mail:smtp:1.6.2</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="6445.0" y="130.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Test dependencies</Category>
+            <Category>Libraries</Category>
+          </Categories>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/InterfaceTestDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/abst/AbstractHttpRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="368">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#691#707#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/demo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/conn/SQLiteImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret line="146" column="19" lean-forward="true" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="117" column="62" lean-forward="true" selection-start-line="117" selection-start-column="62" selection-end-line="117" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -1436,7 +1345,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited />
+          <last-edited>QuicktronInterfaceFrame:Web exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1498,7 +1407,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
