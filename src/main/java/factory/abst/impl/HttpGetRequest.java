@@ -21,6 +21,7 @@ public class HttpGetRequest extends AbstractHttpRequest {
         String result = null;
         CloseableHttpResponse response = null;
         CloseableHttpClient httpCilent = HttpClients.createDefault();
+        url = url + '?' + param;
         HttpGet httpGet = new HttpGet(url);
         try {
             for (String s : head) {
