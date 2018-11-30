@@ -1,7 +1,12 @@
 package test;
 
+import listen.ExtentTestNGIReporterListener;
 import org.testng.annotations.*;
 
+/*
+* TestNG生命周期相关
+* */
+@Listeners(ExtentTestNGIReporterListener.class)
 public class TestNGTest {
 
     @DataProvider(name = "test")
@@ -10,7 +15,6 @@ public class TestNGTest {
                 {"hello",1},{"world",2}
         };
     }
-
     @Test
     @Parameters({"first"})
     public void f1(String first) {

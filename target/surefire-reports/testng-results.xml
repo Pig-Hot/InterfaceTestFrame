@@ -1,98 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="InterfaceTest" duration-ms="2282" started-at="2018-11-27T07:21:31Z" finished-at="2018-11-27T07:21:34Z">
+  <suite name="InterfaceTest" duration-ms="28" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
     <groups>
     </groups>
-    <test name="QuicktronTestDemo" duration-ms="2282" started-at="2018-11-27T07:21:31Z" finished-at="2018-11-27T07:21:34Z">
-      <class name="test.InterfaceTestDemo">
-        <test-method status="FAIL" signature="interfaceTest(java.util.Map)[pri:0, instance:test.InterfaceTestDemo@d8355a8]" name="interfaceTest" duration-ms="1581" started-at="2018-11-27T07:21:32Z" data-provider="test" finished-at="2018-11-27T07:21:34Z">
+    <test name="QuicktronTestDemo" duration-ms="28" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
+      <class name="test.TestNGTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test.TestNGTest@5d624da6]" name="beforeSuite" is-config="true" duration-ms="15" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.TestNGTest@5d624da6]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.TestNGTest@5d624da6]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f1(java.lang.String)[pri:0, instance:test.TestNGTest@5d624da6]" name="f1" duration-ms="1" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{apiCaseName=case1, apiUrl=http://localhost:8080/countSerlvet, apiData=, getResult=data, Expectation={"data":"1","errMsg":"0","errNo":"0"}, apiProtocol=Http, apiType=Get, apiHead=}]]>
+                <![CDATA[first]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.util.regex.Matcher.getTextLength(Matcher.java:1283)
-at java.util.regex.Matcher.reset(Matcher.java:309)
-at java.util.regex.Matcher.<init>(Matcher.java:229)
-at java.util.regex.Pattern.matcher(Pattern.java:1093)
-at data.ResultData.getResultData(ResultData.java:14)
-at test.InterfaceTestDemo.interfaceTest(InterfaceTestDemo.java:47)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- interfaceTest -->
-        <test-method status="FAIL" signature="interfaceTest(java.util.Map)[pri:0, instance:test.InterfaceTestDemo@d8355a8]" name="interfaceTest" duration-ms="3" started-at="2018-11-27T07:21:34Z" data-provider="test" finished-at="2018-11-27T07:21:34Z">
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.TestNGTest@5d624da6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.TestNGTest@5d624da6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.TestNGTest@5d624da6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f2(java.lang.String, int)[pri:0, instance:test.TestNGTest@5d624da6]" name="f2" duration-ms="1" started-at="2018-11-30T09:37:03Z" data-provider="test" finished-at="2018-11-30T09:37:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{apiCaseName=case2, apiUrl=http://localhost:8080/countSerlvet, apiData=x=|data|&y=2, getResult=, Expectation=3, apiProtocol=Http, apiType=Post, apiHead=application/x-www-form-urlencoded}]]>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at java.lang.String.replace(String.java:2240)
-at data.ResultData.replaceResultData(ResultData.java:32)
-at test.InterfaceTestDemo.interfaceTest(InterfaceTestDemo.java:42)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- interfaceTest -->
-      </class> <!-- test.InterfaceTestDemo -->
+        </test-method> <!-- f2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.TestNGTest@5d624da6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="f2(java.lang.String, int)[pri:0, instance:test.TestNGTest@5d624da6]" name="f2" duration-ms="0" started-at="2018-11-30T09:37:03Z" data-provider="test" finished-at="2018-11-30T09:37:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[world]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.TestNGTest@5d624da6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.TestNGTest@5d624da6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.TestNGTest@5d624da6]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.TestNGTest@5d624da6]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.TestNGTest@5d624da6]" name="afterSuite" is-config="true" duration-ms="1" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.TestNGTest -->
     </test> <!-- QuicktronTestDemo -->
   </suite> <!-- InterfaceTest -->
 </testng-results>

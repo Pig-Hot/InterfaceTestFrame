@@ -16,6 +16,7 @@ import java.io.IOException;
 
 /**
  * Created by zhuran on 2018/11/30 0030
+ * 脚本基础写法
  */
 public class HttpTestNGTest {
     private int x;

@@ -24,6 +24,7 @@ import java.util.Map;
 /**
  * Created by zhuran on 2018/11/13 0013
  * Demo测试类
+ * 运用框架编写用例
  */
 @Listeners({ExtentTestNGIReporterListener.class})
 public class InterfaceTestDemo {

@@ -10,6 +10,7 @@ import java.io.IOException;
 
 /**
  * Created by zhuran on 2018/11/30 0030
+ * HTTPClient操作相关
  */
 public class HttpClientTest {
     public void httpGetRequest(String url) throws IOException {
