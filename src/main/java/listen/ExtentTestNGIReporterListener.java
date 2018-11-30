@@ -113,8 +113,8 @@ public class ExtentTestNGIReporterListener implements IReporter {
             reportDir.mkdir();
         }
         ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(OUTPUT_FOLDER + FILE_NAME);
-        htmlReporter.config().setDocumentTitle("QuicktronInterface自动化测试报告");
-        htmlReporter.config().setReportName("QuicktronInterface自动化测试报告");
+        htmlReporter.config().setDocumentTitle("QuicktronInterfaceAutoTestReport");
+        htmlReporter.config().setReportName("QuicktronInterfaceAutoTestReport");
         htmlReporter.config().setChartVisibilityOnOpen(true);
         htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
         htmlReporter.config().setTheme(Theme.STANDARD);

@@ -2,16 +2,24 @@ package test;
 
 import org.testng.annotations.*;
 
-public class NewTest {
+public class TestNGTest {
 
-    @Test
-    public void f1() {
-        System.out.println("test1");
+    @DataProvider(name = "test")
+    public Object[][] dataprovider(){
+        return new Object[][]{
+                {"hello",1},{"world",2}
+        };
     }
 
     @Test
-    public void f2() {
-        System.out.println("test2");
+    @Parameters({"first"})
+    public void f1(String first) {
+        System.out.println(first);
+    }
+
+    @Test(dataProvider = "test")
+    public void f2(String s,int i) {
+        System.out.println(s + " " + i);
     }
 
     @BeforeMethod
