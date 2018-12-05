@@ -6,7 +6,7 @@
         <classes>
             <!--<class name="test.InterfaceTestDemo">-->
             <!--</class>-->
-            <class name="test.TestNGTest">
+            <class name="test.WCSQueryInterfaceTestCase">
             </class>
         </classes>
     </test>

@@ -1,18 +1,56 @@
-2018-11-30 16:31:05,180 [main] [factory.abst.impl.HttpGetRequest] [INFO] - GET request succeeds[http://localhost:8080/countSerlvet]
-2018-11-30 16:31:05,192 [main] [test.InterfaceTestDemo] [INFO] - Expectation:{"data":"1","errMsg":"0","errNo":"0"}
-2018-11-30 16:31:05,192 [main] [test.InterfaceTestDemo] [INFO] - Actual:{"data":"1","errMsg":"0","errNo":"0"}
-2018-11-30 16:31:05,218 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://localhost:8080/countSerlvet]
-2018-11-30 16:31:05,219 [main] [test.InterfaceTestDemo] [INFO] - Expectation:3
-2018-11-30 16:31:05,220 [main] [test.InterfaceTestDemo] [INFO] - Actual:3
-2018-11-30 16:32:39,168 [main] [factory.abst.impl.HttpGetRequest] [INFO] - GET request succeeds[http://localhost:8080/countSerlvet]
-2018-11-30 16:32:39,175 [main] [test.InterfaceTestDemo] [INFO] - Expectation:{"data":"1","errMsg":"0","errNo":"0"}
-2018-11-30 16:32:39,176 [main] [test.InterfaceTestDemo] [INFO] - Actual:{"data":"1","errMsg":"0","errNo":"0"}
-2018-11-30 16:32:39,197 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://localhost:8080/countSerlvet]
-2018-11-30 16:32:39,197 [main] [test.InterfaceTestDemo] [INFO] - Expectation:3
-2018-11-30 16:32:39,198 [main] [test.InterfaceTestDemo] [INFO] - Actual:3
-2018-11-30 16:36:09,749 [main] [factory.abst.impl.HttpGetRequest] [INFO] - GET request succeeds[http://localhost:8080/countSerlvet]
-2018-11-30 16:36:09,757 [main] [test.InterfaceTestDemo] [INFO] - Expectation:{"data":"1","errMsg":"0","errNo":"0"}
-2018-11-30 16:36:09,757 [main] [test.InterfaceTestDemo] [INFO] - Actual:{"data":"1","errMsg":"0","errNo":"0"}
-2018-11-30 16:36:09,776 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://localhost:8080/countSerlvet]
-2018-11-30 16:36:09,777 [main] [test.InterfaceTestDemo] [INFO] - Expectation:3
-2018-11-30 16:36:09,778 [main] [test.InterfaceTestDemo] [INFO] - Actual:3
+2018-12-05 17:31:25,204 [main] [factory.abst.impl.HttpPostRequest] [ERROR] - POST request failed[http://l192.168.21.188:80/wcs/bucket/query]
+2018-12-05 17:31:25,231 [main] [factory.abst.impl.HttpPostRequest] [ERROR] - POST request failed[http://l192.168.21.188:80/wcs/bucket/query]
+2018-12-05 17:31:25,241 [main] [factory.abst.impl.HttpPostRequest] [ERROR] - POST request failed[http://l192.168.21.188:80/wcs/bucket/query]
+2018-12-05 17:31:25,251 [main] [factory.abst.impl.HttpPostRequest] [ERROR] - POST request failed[http://l192.168.21.188:80/wcs/bucket/query]
+2018-12-05 17:31:25,273 [main] [factory.abst.impl.HttpPostRequest] [ERROR] - POST request failed[http://l192.168.21.188:80/wcs/bucket/query]
+2018-12-05 17:31:25,283 [main] [factory.abst.impl.HttpPostRequest] [ERROR] - POST request failed[http://l192.168.21.188:80/wcs/bucket/query]
+2018-12-05 17:31:25,293 [main] [factory.abst.impl.HttpPostRequest] [ERROR] - POST request failed[http://l192.168.21.188:80/wcs/bucket/query]
+2018-12-05 17:31:25,303 [main] [factory.abst.impl.HttpPostRequest] [ERROR] - POST request failed[http://l192.168.21.188:80/wcs/bucket/query]
+2018-12-05 17:31:25,309 [main] [factory.abst.impl.HttpPostRequest] [ERROR] - POST request failed[http://l192.168.21.188:80/wcs/bucket/query]
+2018-12-05 17:33:04,295 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:80/wcs/bucket/query]
+2018-12-05 17:33:04,327 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:80/wcs/bucket/query]
+2018-12-05 17:33:04,341 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:80/wcs/bucket/query]
+2018-12-05 17:33:04,355 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:80/wcs/bucket/query]
+2018-12-05 17:33:04,367 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:80/wcs/bucket/query]
+2018-12-05 17:33:04,380 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:80/wcs/bucket/query]
+2018-12-05 17:33:04,394 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:80/wcs/bucket/query]
+2018-12-05 17:33:04,403 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:80/wcs/bucket/query]
+2018-12-05 17:33:04,412 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:80/wcs/bucket/query]
+2018-12-05 17:34:52,826 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:8080/wcs/bucket/query]
+2018-12-05 17:34:52,831 [main] [test.WCSQueryInterfaceTestCase] [INFO] - Expectation:{"receiveState":"success","message":"WMS-SUCCESS:成功","warehouseId":"60001","warehouseArea":"null","bucketCode":"1003","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}
+2018-12-05 17:34:52,832 [main] [test.WCSQueryInterfaceTestCase] [INFO] - Actual:{"receiveState":"success","message":"WMS-SUCCESS:成功","warehouseId":"60001","warehouseArea":"null","bucketCode":"1003","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}
+2018-12-05 17:34:52,849 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:8080/wcs/bucket/query]
+2018-12-05 17:34:52,850 [main] [test.WCSQueryInterfaceTestCase] [INFO] - Expectation:{"receiveState":"failure","message":"WMS-ERR-03:货架编号格式不合法","warehouseId":"60001","warehouseArea":"","bucketCode":"","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}
+2018-12-05 17:34:52,850 [main] [test.WCSQueryInterfaceTestCase] [INFO] - Actual:{"receiveState":"failure","message":"WMS-ERR-03:货架编号格式不合法","warehouseId":"60001","warehouseArea":"","bucketCode":"","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}
+2018-12-05 17:34:52,867 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:8080/wcs/bucket/query]
+2018-12-05 17:34:52,890 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:8080/wcs/bucket/query]
+2018-12-05 17:34:52,891 [main] [test.WCSQueryInterfaceTestCase] [INFO] - Expectation:{"receiveState":"failure","message":"WMS-ERR-03:货架编号格式不合法","warehouseId":"60001","warehouseArea":"","bucketCode":"111111111111111111111111111111111111111111111111111","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}
+2018-12-05 17:34:52,891 [main] [test.WCSQueryInterfaceTestCase] [INFO] - Actual:{"receiveState":"failure","message":"WMS-ERR-03:货架编号格式不合法","warehouseId":"60001","warehouseArea":"","bucketCode":"111111111111111111111111111111111111111111111111111","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}
+2018-12-05 17:34:52,908 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:8080/wcs/bucket/query]
+2018-12-05 17:34:52,908 [main] [test.WCSQueryInterfaceTestCase] [INFO] - Expectation:{"receiveState":"failure","message":"WMS-ERR-02:仓库编号格式不合法","warehouseId":"null","warehouseArea":"","bucketCode":"1003","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}
+2018-12-05 17:34:52,909 [main] [test.WCSQueryInterfaceTestCase] [INFO] - Actual:{"receiveState":"failure","message":"WMS-ERR-02:仓库编号格式不合法","warehouseId":"null","warehouseArea":"","bucketCode":"1003","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}
+2018-12-05 17:34:52,923 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:8080/wcs/bucket/query]
+2018-12-05 17:34:52,935 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:8080/wcs/bucket/query]
+2018-12-05 17:34:52,935 [main] [test.WCSQueryInterfaceTestCase] [INFO] - Expectation:{"receiveState":"failure","message":"WMS-ERR-41:仓库编号不存在","warehouseId":"1000","warehouseArea":"","bucketCode":"1003","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}
+2018-12-05 17:34:52,937 [main] [test.WCSQueryInterfaceTestCase] [INFO] - Actual:{"receiveState":"failure","message":"WMS-ERR-41:仓库编号不存在","warehouseId":"1000","warehouseArea":"","bucketCode":"1003","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}
+2018-12-05 17:34:52,960 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:8080/wcs/bucket/query]
+2018-12-05 17:34:52,977 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:8080/wcs/bucket/query]
+2018-12-05 17:35:37,712 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:8080/wcs/bucket/query]
+2018-12-05 17:35:37,717 [main] [test.WCSQueryInterfaceTestCase] [INFO] - Expectation:{"receiveState":"success","message":"WMS-SUCCESS:成功","warehouseId":"60001","warehouseArea":"null","bucketCode":"1003","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}
+2018-12-05 17:35:37,718 [main] [test.WCSQueryInterfaceTestCase] [INFO] - Actual:{"receiveState":"success","message":"WMS-SUCCESS:成功","warehouseId":"60001","warehouseArea":"null","bucketCode":"1003","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}
+2018-12-05 17:35:37,734 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:8080/wcs/bucket/query]
+2018-12-05 17:35:37,735 [main] [test.WCSQueryInterfaceTestCase] [INFO] - Expectation:{"receiveState":"failure","message":"WMS-ERR-03:货架编号格式不合法","warehouseId":"60001","warehouseArea":"","bucketCode":"","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}
+2018-12-05 17:35:37,735 [main] [test.WCSQueryInterfaceTestCase] [INFO] - Actual:{"receiveState":"failure","message":"WMS-ERR-03:货架编号格式不合法","warehouseId":"60001","warehouseArea":"","bucketCode":"","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}
+2018-12-05 17:35:37,750 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:8080/wcs/bucket/query]
+2018-12-05 17:35:37,763 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:8080/wcs/bucket/query]
+2018-12-05 17:35:37,763 [main] [test.WCSQueryInterfaceTestCase] [INFO] - Expectation:{"receiveState":"failure","message":"WMS-ERR-03:货架编号格式不合法","warehouseId":"60001","warehouseArea":"","bucketCode":"111111111111111111111111111111111111111111111111111","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}
+2018-12-05 17:35:37,763 [main] [test.WCSQueryInterfaceTestCase] [INFO] - Actual:{"receiveState":"failure","message":"WMS-ERR-03:货架编号格式不合法","warehouseId":"60001","warehouseArea":"","bucketCode":"111111111111111111111111111111111111111111111111111","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}
+2018-12-05 17:35:37,774 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:8080/wcs/bucket/query]
+2018-12-05 17:35:37,775 [main] [test.WCSQueryInterfaceTestCase] [INFO] - Expectation:{"receiveState":"failure","message":"WMS-ERR-02:仓库编号格式不合法","warehouseId":"null","warehouseArea":"","bucketCode":"1003","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}
+2018-12-05 17:35:37,775 [main] [test.WCSQueryInterfaceTestCase] [INFO] - Actual:{"receiveState":"failure","message":"WMS-ERR-02:仓库编号格式不合法","warehouseId":"null","warehouseArea":"","bucketCode":"1003","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}
+2018-12-05 17:35:37,792 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:8080/wcs/bucket/query]
+2018-12-05 17:35:37,807 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:8080/wcs/bucket/query]
+2018-12-05 17:35:37,808 [main] [test.WCSQueryInterfaceTestCase] [INFO] - Expectation:{"receiveState":"failure","message":"WMS-ERR-41:仓库编号不存在","warehouseId":"1000","warehouseArea":"","bucketCode":"1003","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}
+2018-12-05 17:35:37,811 [main] [test.WCSQueryInterfaceTestCase] [INFO] - Actual:{"receiveState":"failure","message":"WMS-ERR-41:仓库编号不存在","warehouseId":"1000","warehouseArea":"","bucketCode":"1003","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}
+2018-12-05 17:35:37,830 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:8080/wcs/bucket/query]
+2018-12-05 17:35:37,849 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:8080/wcs/bucket/query]
