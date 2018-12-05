@@ -34,7 +34,8 @@
 		<!-- slideout menu -->
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
-						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
+						<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
+			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
 		</ul>
 
 		<!-- report name -->
@@ -47,7 +48,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Dec 5, 2018 05:35:36 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Dec 5, 2018 07:18:18 PM</span>
 				</a>
 			</li>
 			<li>
@@ -80,6 +81,19 @@
 			<!-- test toggle -->
 
 			<!-- category toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button category-toggle' data-activates='category-toggle' data-constrainwidth='false' data-beloworigin='true' data-hover='true' href='#'>
+					<i class='material-icons'>local_offer</i> Category
+				</a>
+				<ul id='category-toggle' class='dropdown-content'>
+					<li><a href='#'>InterfaceErrorTestSuite</a></li>
+					<li><a href='#'>WCSQueryInterfaceErrorTestCase</a></li>
+					<li><a href='#'>InterfaceTestSuite</a></li>
+					<li><a href='#'>WCSQueryInterfaceTestCase</a></li>
+					<li class='divider'></li>
+					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
+				</ul>
+			</div>
 			<!-- category toggle -->
 
 			<!-- clear filters -->
@@ -156,308 +170,315 @@
 			<ul id='test-collection' class='test-collection'>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>{apiCaseName=case1, apiUrl=http://192.168.21.188:...</span>
-						<span class='test-time'>Dec 5, 2018 05:35:36 PM</span>
+						<span class='test-name'>InterfaceErrorTestSuite : WCSQueryInterfaceErrorTestCase</span>
+						<span class='test-time'>Dec 5, 2018 07:18:18 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Dec 5, 2018 05:35:36 PM</span>
-	<span class='label end-time'>Dec 5, 2018 05:35:37 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+948ms</span>
+	<span class='label start-time'>Dec 5, 2018 07:18:18 PM</span>
+	<span class='label end-time'>Dec 5, 2018 07:18:19 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+235ms</span>
 </div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>5:35:37 PM</td>
-					<td class='step-details'>Test passed</td>
-				</tr>
-			</tbody>
-		</table>
+	<div class='test-desc'>Pass: 4 ; Fail: 0 ; Skip: 0 ; </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>InterfaceErrorTestSuite</span>
+				<span class='category label white-text'>WCSQueryInterfaceErrorTestCase</span>
+			</div>
 	</div>
+	<ul class='collapsible node-list' data-collapsible='accordion'>
+		
+				<li class='node level-1 leaf pass' status='pass' test-id='2'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>{apiCaseName=case2, apiUrl=http://192.168.21.188:...</h5>
+						<span class='test-status right pass'>pass</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+772ms</span>
+								<span class='category label white-text'>InterfaceErrorTestSuite</span>
+								<span class='category label white-text'>WCSQueryInterfaceErrorTestCase</span>
+					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>7:18:19 PM</td>
+													<td class='step-details'>Test passed</td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
+				</li>
+				<li class='node level-1 leaf pass' status='pass' test-id='3'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>{apiCaseName=case3, apiUrl=http://192.168.21.188:...</h5>
+						<span class='test-status right pass'>pass</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+224ms</span>
+								<span class='category label white-text'>InterfaceErrorTestSuite</span>
+								<span class='category label white-text'>WCSQueryInterfaceErrorTestCase</span>
+					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>7:18:19 PM</td>
+													<td class='step-details'>Test passed</td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
+				</li>
+				<li class='node level-1 leaf pass' status='pass' test-id='4'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>{apiCaseName=case4, apiUrl=http://192.168.21.188:...</h5>
+						<span class='test-status right pass'>pass</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+204ms</span>
+								<span class='category label white-text'>InterfaceErrorTestSuite</span>
+								<span class='category label white-text'>WCSQueryInterfaceErrorTestCase</span>
+					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>7:18:19 PM</td>
+													<td class='step-details'>Test passed</td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
+				</li>
+				<li class='node level-1 leaf pass' status='pass' test-id='5'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>{apiCaseName=case5, apiUrl=http://192.168.21.188:...</h5>
+						<span class='test-status right pass'>pass</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+188ms</span>
+								<span class='category label white-text'>InterfaceErrorTestSuite</span>
+								<span class='category label white-text'>WCSQueryInterfaceErrorTestCase</span>
+					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>7:18:19 PM</td>
+													<td class='step-details'>Test passed</td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
+				</li>
+	</ul>
 					</div>
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='6'>
 					<div class='test-heading'>
-						<span class='test-name'>{apiCaseName=case2, apiUrl=http://192.168.21.188:...</span>
-						<span class='test-time'>Dec 5, 2018 05:35:37 PM</span>
+						<span class='test-name'>InterfaceTestSuite : WCSQueryInterfaceTestCase</span>
+						<span class='test-time'>Dec 5, 2018 07:18:18 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Dec 5, 2018 05:35:37 PM</span>
-	<span class='label end-time'>Dec 5, 2018 05:35:37 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+15ms</span>
+	<span class='label start-time'>Dec 5, 2018 07:18:18 PM</span>
+	<span class='label end-time'>Dec 5, 2018 07:18:19 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+251ms</span>
 </div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>5:35:37 PM</td>
-					<td class='step-details'>Test passed</td>
-				</tr>
-			</tbody>
-		</table>
+	<div class='test-desc'>Pass: 5 ; Fail: 0 ; Skip: 0 ; </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>InterfaceTestSuite</span>
+				<span class='category label white-text'>WCSQueryInterfaceTestCase</span>
+			</div>
 	</div>
+	<ul class='collapsible node-list' data-collapsible='accordion'>
+		
+				<li class='node level-1 leaf pass' status='pass' test-id='7'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>{apiCaseName=case1, apiUrl=http://192.168.21.188:...</h5>
+						<span class='test-status right pass'>pass</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+781ms</span>
+								<span class='category label white-text'>InterfaceTestSuite</span>
+								<span class='category label white-text'>WCSQueryInterfaceTestCase</span>
 					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>7:18:19 PM</td>
+													<td class='step-details'>Test passed</td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
 				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
-					<div class='test-heading'>
-						<span class='test-name'>{apiCaseName=case3, apiUrl=http://192.168.21.188:...</span>
-						<span class='test-time'>Dec 5, 2018 05:35:37 PM</span>
+				<li class='node level-1 leaf pass' status='pass' test-id='8'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>{apiCaseName=case6, apiUrl=http://192.168.21.188:...</h5>
 						<span class='test-status right pass'>pass</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+233ms</span>
+								<span class='category label white-text'>InterfaceTestSuite</span>
+								<span class='category label white-text'>WCSQueryInterfaceTestCase</span>
 					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Dec 5, 2018 05:35:37 PM</span>
-	<span class='label end-time'>Dec 5, 2018 05:35:37 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+14ms</span>
-</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>5:35:37 PM</td>
-					<td class='step-details'>Test passed</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>7:18:19 PM</td>
+													<td class='step-details'>Test passed</td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
 				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
-					<div class='test-heading'>
-						<span class='test-name'>{apiCaseName=case4, apiUrl=http://192.168.21.188:...</span>
-						<span class='test-time'>Dec 5, 2018 05:35:37 PM</span>
+				<li class='node level-1 leaf pass' status='pass' test-id='9'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>{apiCaseName=case7, apiUrl=http://192.168.21.188:...</h5>
 						<span class='test-status right pass'>pass</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+206ms</span>
+								<span class='category label white-text'>InterfaceTestSuite</span>
+								<span class='category label white-text'>WCSQueryInterfaceTestCase</span>
 					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Dec 5, 2018 05:35:37 PM</span>
-	<span class='label end-time'>Dec 5, 2018 05:35:37 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+12ms</span>
-</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>5:35:37 PM</td>
-					<td class='step-details'>Test passed</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>7:18:19 PM</td>
+													<td class='step-details'>Test passed</td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
 				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
-					<div class='test-heading'>
-						<span class='test-name'>{apiCaseName=case5, apiUrl=http://192.168.21.188:...</span>
-						<span class='test-time'>Dec 5, 2018 05:35:37 PM</span>
+				<li class='node level-1 leaf pass' status='pass' test-id='10'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>{apiCaseName=case8, apiUrl=http://192.168.21.188:...</h5>
 						<span class='test-status right pass'>pass</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+182ms</span>
+								<span class='category label white-text'>InterfaceTestSuite</span>
+								<span class='category label white-text'>WCSQueryInterfaceTestCase</span>
 					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Dec 5, 2018 05:35:37 PM</span>
-	<span class='label end-time'>Dec 5, 2018 05:35:37 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+10ms</span>
-</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>5:35:37 PM</td>
-					<td class='step-details'>Test passed</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>7:18:19 PM</td>
+													<td class='step-details'>Test passed</td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
 				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
-					<div class='test-heading'>
-						<span class='test-name'>{apiCaseName=case6, apiUrl=http://192.168.21.188:...</span>
-						<span class='test-time'>Dec 5, 2018 05:35:37 PM</span>
+				<li class='node level-1 leaf pass' status='pass' test-id='11'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>{apiCaseName=case9, apiUrl=http://192.168.21.188:...</h5>
 						<span class='test-status right pass'>pass</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+169ms</span>
+								<span class='category label white-text'>InterfaceTestSuite</span>
+								<span class='category label white-text'>WCSQueryInterfaceTestCase</span>
 					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Dec 5, 2018 05:35:37 PM</span>
-	<span class='label end-time'>Dec 5, 2018 05:35:37 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+15ms</span>
-</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>5:35:37 PM</td>
-					<td class='step-details'>Test passed</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>7:18:19 PM</td>
+													<td class='step-details'>Test passed</td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
 				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
-					<div class='test-heading'>
-						<span class='test-name'>{apiCaseName=case7, apiUrl=http://192.168.21.188:...</span>
-						<span class='test-time'>Dec 5, 2018 05:35:37 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Dec 5, 2018 05:35:37 PM</span>
-	<span class='label end-time'>Dec 5, 2018 05:35:37 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+19ms</span>
-</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>5:35:37 PM</td>
-					<td class='step-details'>Test passed</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='8'>
-					<div class='test-heading'>
-						<span class='test-name'>{apiCaseName=case8, apiUrl=http://192.168.21.188:...</span>
-						<span class='test-time'>Dec 5, 2018 05:35:37 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Dec 5, 2018 05:35:37 PM</span>
-	<span class='label end-time'>Dec 5, 2018 05:35:37 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+17ms</span>
-</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>5:35:37 PM</td>
-					<td class='step-details'>Test passed</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='9'>
-					<div class='test-heading'>
-						<span class='test-name'>{apiCaseName=case9, apiUrl=http://192.168.21.188:...</span>
-						<span class='test-time'>Dec 5, 2018 05:35:37 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Dec 5, 2018 05:35:37 PM</span>
-	<span class='label end-time'>Dec 5, 2018 05:35:37 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+19ms</span>
-</div>
-	<div class='test-steps'>
-		<table class='bordered table-results'>
-			<thead>
-				<tr>
-					<th>Status</th>
-					<th>Timestamp</th>
-					<th>Details</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>5:35:37 PM</td>
-					<td class='step-details'>Test passed</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
+	</ul>
 					</div>
 				</li>
 			</ul>
@@ -485,6 +506,268 @@
 
 </div>
 <!-- test view -->
+<div id='category-view' class='view hide'>
+
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+					<i class='material-icons'>search</i> Search
+				</a>
+				
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+				
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+
+	<div class='subview-left left'>
+		
+		<div class='view-summary'>
+			<h5>Categories</h3>
+			<ul id='category-collection' class='category-collection'>
+				
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>InterfaceErrorTestSuite</span>
+						<span class='category-status right'>
+							<span class='label pass'>5</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span class='label green accent-4 white-text'>Passed: 5</span>
+							
+							
+						</div>
+					
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Dec 5, 2018 07:18:18 PM</td>
+										<td class='linked' test-id='1'>InterfaceErrorTestSuite</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 5, 2018 07:18:18 PM</td>
+										<td class='linked' test-id='2'>InterfaceErrorTestSuite.{apiCaseName=case2, apiUrl=http://192.168.21.188:...</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 5, 2018 07:18:19 PM</td>
+										<td class='linked' test-id='3'>InterfaceErrorTestSuite.{apiCaseName=case3, apiUrl=http://192.168.21.188:...</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 5, 2018 07:18:19 PM</td>
+										<td class='linked' test-id='4'>InterfaceErrorTestSuite.{apiCaseName=case4, apiUrl=http://192.168.21.188:...</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 5, 2018 07:18:19 PM</td>
+										<td class='linked' test-id='5'>InterfaceErrorTestSuite.{apiCaseName=case5, apiUrl=http://192.168.21.188:...</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>WCSQueryInterfaceErrorTestCase</span>
+						<span class='category-status right'>
+							<span class='label pass'>5</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span class='label green accent-4 white-text'>Passed: 5</span>
+							
+							
+						</div>
+					
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Dec 5, 2018 07:18:18 PM</td>
+										<td class='linked' test-id='1'>InterfaceErrorTestSuite</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 5, 2018 07:18:18 PM</td>
+										<td class='linked' test-id='2'>InterfaceErrorTestSuite.{apiCaseName=case2, apiUrl=http://192.168.21.188:...</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 5, 2018 07:18:19 PM</td>
+										<td class='linked' test-id='3'>InterfaceErrorTestSuite.{apiCaseName=case3, apiUrl=http://192.168.21.188:...</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 5, 2018 07:18:19 PM</td>
+										<td class='linked' test-id='4'>InterfaceErrorTestSuite.{apiCaseName=case4, apiUrl=http://192.168.21.188:...</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 5, 2018 07:18:19 PM</td>
+										<td class='linked' test-id='5'>InterfaceErrorTestSuite.{apiCaseName=case5, apiUrl=http://192.168.21.188:...</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>InterfaceTestSuite</span>
+						<span class='category-status right'>
+							<span class='label pass'>6</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span class='label green accent-4 white-text'>Passed: 6</span>
+							
+							
+						</div>
+					
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Dec 5, 2018 07:18:18 PM</td>
+										<td class='linked' test-id='6'>InterfaceTestSuite</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 5, 2018 07:18:18 PM</td>
+										<td class='linked' test-id='7'>InterfaceTestSuite.{apiCaseName=case1, apiUrl=http://192.168.21.188:...</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 5, 2018 07:18:19 PM</td>
+										<td class='linked' test-id='8'>InterfaceTestSuite.{apiCaseName=case6, apiUrl=http://192.168.21.188:...</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 5, 2018 07:18:19 PM</td>
+										<td class='linked' test-id='9'>InterfaceTestSuite.{apiCaseName=case7, apiUrl=http://192.168.21.188:...</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 5, 2018 07:18:19 PM</td>
+										<td class='linked' test-id='10'>InterfaceTestSuite.{apiCaseName=case8, apiUrl=http://192.168.21.188:...</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 5, 2018 07:18:19 PM</td>
+										<td class='linked' test-id='11'>InterfaceTestSuite.{apiCaseName=case9, apiUrl=http://192.168.21.188:...</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>WCSQueryInterfaceTestCase</span>
+						<span class='category-status right'>
+							<span class='label pass'>6</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span class='label green accent-4 white-text'>Passed: 6</span>
+							
+							
+						</div>
+					
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Dec 5, 2018 07:18:18 PM</td>
+										<td class='linked' test-id='6'>InterfaceTestSuite</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 5, 2018 07:18:18 PM</td>
+										<td class='linked' test-id='7'>InterfaceTestSuite.{apiCaseName=case1, apiUrl=http://192.168.21.188:...</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 5, 2018 07:18:19 PM</td>
+										<td class='linked' test-id='8'>InterfaceTestSuite.{apiCaseName=case6, apiUrl=http://192.168.21.188:...</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 5, 2018 07:18:19 PM</td>
+										<td class='linked' test-id='9'>InterfaceTestSuite.{apiCaseName=case7, apiUrl=http://192.168.21.188:...</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 5, 2018 07:18:19 PM</td>
+										<td class='linked' test-id='10'>InterfaceTestSuite.{apiCaseName=case8, apiUrl=http://192.168.21.188:...</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 5, 2018 07:18:19 PM</td>
+										<td class='linked' test-id='11'>InterfaceTestSuite.{apiCaseName=case9, apiUrl=http://192.168.21.188:...</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<h5 class='category-name'></h5>
+		</div>
+	</div>
+</div>
 <!-- category view -->
 <!-- exception view -->
 <div id='dashboard-view' class='view hide'>
@@ -507,19 +790,57 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Dec 5, 2018 05:35:36 PM</div>
+					<div class='panel-lead'>Dec 5, 2018 07:18:18 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Dec 5, 2018 05:35:37 PM</div>
+			 		<div class='panel-lead'>Dec 5, 2018 07:18:19 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>1,209ms</div>
+					<div class='panel-lead'>1,408ms</div>
+				</div>
+			</div>
+			<div class='col s4'>
+				<div class='card-panel dashboard-categories'>
+					<span class='right label cyan white-text'>Categories</span><p>&nbsp;</p>
+					
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Passed</th>
+							<th>Failed</th>
+							<th>Others</th>
+						</tr>
+						<tr>
+							<td>InterfaceErrorTestSuite</td>
+							<td>5</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>WCSQueryInterfaceErrorTestCase</td>
+							<td>5</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>InterfaceTestSuite</td>
+							<td>6</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>WCSQueryInterfaceTestCase</td>
+							<td>6</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+					</table>
 				</div>
 			</div>
 		</div>

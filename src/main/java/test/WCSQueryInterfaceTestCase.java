@@ -24,7 +24,7 @@ public class WCSQueryInterfaceTestCase {
 
     @DataProvider(name = "queryTestCase")
     public Iterator<Object[]> getData() throws IOException {
-        return new ExcelIteratorUtils("casedata/ApiTestCase");
+        return new ExcelIteratorUtils("casedata/WCSQueryInterface");
     }
 
     @Test(dataProvider = "queryTestCase")

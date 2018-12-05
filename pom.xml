@@ -97,6 +97,13 @@
             <artifactId>poi-ooxml</artifactId>
             <version>3.10.1</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.thoughtworks.qdox/qdox -->
+        <dependency>
+            <groupId>com.thoughtworks.qdox</groupId>
+            <artifactId>qdox</artifactId>
+            <version>2.0-M9</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -121,6 +128,7 @@
                     <!--<skipTests>true</skipTests>-->
                     <suiteXmlFiles>
                         <file>testcase/WcsQueryTestCase.xml</file>
+                        <file>testcase/WcsQueryTestCaseError.xml</file>
                     </suiteXmlFiles>
                     <properties>
                         <property>

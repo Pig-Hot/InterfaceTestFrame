@@ -2,6 +2,7 @@ utils\HttpUtils.class
 listen\TestngRetry.class
 utils\SendMailUtils$1.class
 listen\ExtentTestNGIReporterListener.class
+test\WCSQueryInterfaceErrorTestCase.class
 listen\ExtentTestNGIReporterListener$1.class
 listen\RetryListener.class
 utils\JSONUtils.class

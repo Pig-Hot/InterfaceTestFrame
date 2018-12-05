@@ -1,104 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="InterfaceTest" duration-ms="28" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
+  <suite name="InterfaceErrorTestSuite" duration-ms="1235" started-at="2018-12-05T11:18:18Z" finished-at="2018-12-05T11:18:19Z">
     <groups>
     </groups>
-    <test name="QuicktronTestDemo" duration-ms="28" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
-      <class name="test.TestNGTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test.TestNGTest@5d624da6]" name="beforeSuite" is-config="true" duration-ms="15" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.TestNGTest@5d624da6]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.TestNGTest@5d624da6]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="f1(java.lang.String)[pri:0, instance:test.TestNGTest@5d624da6]" name="f1" duration-ms="1" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
+    <test name="WCSQueryInterfaceErrorTestCase" duration-ms="1235" started-at="2018-12-05T11:18:18Z" finished-at="2018-12-05T11:18:19Z">
+      <class name="test.WCSQueryInterfaceErrorTestCase">
+        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceErrorTestCase@72d818d1]" name="queryTestSctrip" duration-ms="555" started-at="2018-12-05T11:18:18Z" data-provider="queryTestCase" finished-at="2018-12-05T11:18:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[first]]>
+                <![CDATA[{apiCaseName=case2, apiUrl=http://192.168.21.188:8080/wcs/bucket/query, apiData={
+ "warehouseId": "60001",
+ "warehouseArea": "",
+ "bucketCode": ""
+}, getResult=, Expectation={"receiveState":"failure","message":"WMS-ERR-03:货架编号格式不合法","warehouseId":"60001","warehouseArea":"","bucketCode":"","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}, apiProtocol=Http, apiType=Post, apiHead=application/json}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f1 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.TestNGTest@5d624da6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.TestNGTest@5d624da6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.TestNGTest@5d624da6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f2(java.lang.String, int)[pri:0, instance:test.TestNGTest@5d624da6]" name="f2" duration-ms="1" started-at="2018-11-30T09:37:03Z" data-provider="test" finished-at="2018-11-30T09:37:03Z">
+        </test-method> <!-- queryTestSctrip -->
+        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceErrorTestCase@72d818d1]" name="queryTestSctrip" duration-ms="19" started-at="2018-12-05T11:18:19Z" data-provider="queryTestCase" finished-at="2018-12-05T11:18:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[hello]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1]]>
+                <![CDATA[{apiCaseName=case3, apiUrl=http://192.168.21.188:8080/wcs/bucket/query, apiData={
+ "warehouseId": "60001",
+ "warehouseArea": "",
+ "bucketCode": "s*s"
+}, getResult=, Expectation=, apiProtocol=Http, apiType=Post, apiHead=application/json}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f2 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.TestNGTest@5d624da6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="f2(java.lang.String, int)[pri:0, instance:test.TestNGTest@5d624da6]" name="f2" duration-ms="0" started-at="2018-11-30T09:37:03Z" data-provider="test" finished-at="2018-11-30T09:37:03Z">
+        </test-method> <!-- queryTestSctrip -->
+        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceErrorTestCase@72d818d1]" name="queryTestSctrip" duration-ms="14" started-at="2018-12-05T11:18:19Z" data-provider="queryTestCase" finished-at="2018-12-05T11:18:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[world]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2]]>
+                <![CDATA[{apiCaseName=case4, apiUrl=http://192.168.21.188:8080/wcs/bucket/query, apiData={
+ "warehouseId": "60001",
+ "warehouseArea": "",
+ "bucketCode": "111111111111111111111111111111111111111111111111111"
+}, getResult=, Expectation={"receiveState":"failure","message":"WMS-ERR-03:货架编号格式不合法","warehouseId":"60001","warehouseArea":"","bucketCode":"111111111111111111111111111111111111111111111111111","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}, apiProtocol=Http, apiType=Post, apiHead=application/json}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f2 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.TestNGTest@5d624da6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
+        </test-method> <!-- queryTestSctrip -->
+        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceErrorTestCase@72d818d1]" name="queryTestSctrip" duration-ms="21" started-at="2018-12-05T11:18:19Z" data-provider="queryTestCase" finished-at="2018-12-05T11:18:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{apiCaseName=case5, apiUrl=http://192.168.21.188:8080/wcs/bucket/query, apiData={
+ "warehouseId": "",
+ "warehouseArea": "",
+ "bucketCode": "1003"
+}, getResult=, Expectation={"receiveState":"failure","message":"WMS-ERR-02:仓库编号格式不合法","warehouseId":"null","warehouseArea":"","bucketCode":"1003","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}, apiProtocol=Http, apiType=Post, apiHead=application/json}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.TestNGTest@5d624da6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
+        </test-method> <!-- queryTestSctrip -->
+      </class> <!-- test.WCSQueryInterfaceErrorTestCase -->
+    </test> <!-- WCSQueryInterfaceErrorTestCase -->
+  </suite> <!-- InterfaceErrorTestSuite -->
+  <suite name="InterfaceTestSuite" duration-ms="1251" started-at="2018-12-05T11:18:18Z" finished-at="2018-12-05T11:18:19Z">
+    <groups>
+    </groups>
+    <test name="WCSQueryInterfaceTestCase" duration-ms="1251" started-at="2018-12-05T11:18:18Z" finished-at="2018-12-05T11:18:19Z">
+      <class name="test.WCSQueryInterfaceTestCase">
+        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceTestCase@e25b2fe]" name="queryTestSctrip" duration-ms="547" started-at="2018-12-05T11:18:18Z" data-provider="queryTestCase" finished-at="2018-12-05T11:18:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{apiCaseName=case1, apiUrl=http://192.168.21.188:8080/wcs/bucket/query, apiData={
+ "warehouseId": "60001",
+ "warehouseArea": "",
+ "bucketCode": "1003"
+}, getResult=, Expectation={"receiveState":"success","message":"WMS-SUCCESS:成功","warehouseId":"60001","warehouseArea":"null","bucketCode":"1003","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}, apiProtocol=Http, apiType=Post, apiHead=application/json}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.TestNGTest@5d624da6]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
+        </test-method> <!-- queryTestSctrip -->
+        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceTestCase@e25b2fe]" name="queryTestSctrip" duration-ms="26" started-at="2018-12-05T11:18:19Z" data-provider="queryTestCase" finished-at="2018-12-05T11:18:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{apiCaseName=case6, apiUrl=http://192.168.21.188:8080/wcs/bucket/query, apiData={
+ "warehouseId": "s*s",
+ "warehouseArea": "",
+ "bucketCode": "1003"
+}, getResult=, Expectation=, apiProtocol=Http, apiType=Post, apiHead=application/json}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.TestNGTest@5d624da6]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
+        </test-method> <!-- queryTestSctrip -->
+        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceTestCase@e25b2fe]" name="queryTestSctrip" duration-ms="23" started-at="2018-12-05T11:18:19Z" data-provider="queryTestCase" finished-at="2018-12-05T11:18:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{apiCaseName=case7, apiUrl=http://192.168.21.188:8080/wcs/bucket/query, apiData={
+ "warehouseId": "1000",
+ "warehouseArea": "",
+ "bucketCode": "1003"
+}, getResult=, Expectation={"receiveState":"failure","message":"WMS-ERR-41:仓库编号不存在","warehouseId":"1000","warehouseArea":"","bucketCode":"1003","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}, apiProtocol=Http, apiType=Post, apiHead=application/json}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.TestNGTest@5d624da6]" name="afterSuite" is-config="true" duration-ms="1" started-at="2018-11-30T09:37:03Z" finished-at="2018-11-30T09:37:03Z">
+        </test-method> <!-- queryTestSctrip -->
+        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceTestCase@e25b2fe]" name="queryTestSctrip" duration-ms="14" started-at="2018-12-05T11:18:19Z" data-provider="queryTestCase" finished-at="2018-12-05T11:18:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{apiCaseName=case8, apiUrl=http://192.168.21.188:8080/wcs/bucket/query, apiData={
+ "warehouseId": "60001",
+ "warehouseArea": "sss",
+ "bucketCode": "1003"
+}, getResult=, Expectation=, apiProtocol=Http, apiType=Post, apiHead=application/json}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- test.TestNGTest -->
-    </test> <!-- QuicktronTestDemo -->
-  </suite> <!-- InterfaceTest -->
+        </test-method> <!-- queryTestSctrip -->
+        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceTestCase@e25b2fe]" name="queryTestSctrip" duration-ms="13" started-at="2018-12-05T11:18:19Z" data-provider="queryTestCase" finished-at="2018-12-05T11:18:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{apiCaseName=case9, apiUrl=http://192.168.21.188:8080/wcs/bucket/query, apiData={
+ "warehouseId": "60001",
+ "warehouseArea": "11111111111111111111",
+ "bucketCode": "1003"
+}, getResult=, Expectation=, apiProtocol=Http, apiType=Post, apiHead=application/json}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryTestSctrip -->
+      </class> <!-- test.WCSQueryInterfaceTestCase -->
+    </test> <!-- WCSQueryInterfaceTestCase -->
+  </suite> <!-- InterfaceTestSuite -->
 </testng-results>

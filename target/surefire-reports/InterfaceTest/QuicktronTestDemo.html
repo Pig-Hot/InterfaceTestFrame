@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>QuicktronTestDemo</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Nov 30 17:37:03 CST 2018</td>
+<td>Started on:</td><td>Wed Dec 05 18:28:10 CST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (28 ms)</td>
+<tr><td>Total time:</td><td>1 seconds (1301 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,20 +75,50 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='test.TestNGTest.f1()'><b>f1</b><br>Test class: test.TestNGTest<br>Parameters: first</td>
+<td title='test.WCSQueryInterfaceTestCase.queryTestSctrip()'><b>queryTestSctrip</b><br>Test class: test.WCSQueryInterfaceTestCase<br>Parameters: {apiCaseName=case1, apiUrl=http://192.168.21.188:8080/wcs/bucket/query, apiData={
+ "warehouseId": "60001",
+ "warehouseArea": "",
+ "bucketCode": "1003"
+}, getResult=, Expectation={"receiveState":"success","message":"WMS-SUCCESS:成功","warehouseId":"60001","warehouseArea":"null","bucketCode":"1003","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}, apiProtocol=Http, apiType=Post, apiHead=application/json}</td>
 <td></td>
 <td>0</td>
-<td>test.TestNGTest@5d624da6</td></tr>
+<td>test.WCSQueryInterfaceTestCase@d8355a8</td></tr>
 <tr>
-<td title='test.TestNGTest.f2()'><b>f2</b><br>Test class: test.TestNGTest<br>Parameters: hello, 1</td>
+<td title='test.WCSQueryInterfaceTestCase.queryTestSctrip()'><b>queryTestSctrip</b><br>Test class: test.WCSQueryInterfaceTestCase<br>Parameters: {apiCaseName=case6, apiUrl=http://192.168.21.188:8080/wcs/bucket/query, apiData={
+ "warehouseId": "s*s",
+ "warehouseArea": "",
+ "bucketCode": "1003"
+}, getResult=, Expectation=, apiProtocol=Http, apiType=Post, apiHead=application/json}</td>
 <td></td>
 <td>0</td>
-<td>test.TestNGTest@5d624da6</td></tr>
+<td>test.WCSQueryInterfaceTestCase@d8355a8</td></tr>
 <tr>
-<td title='test.TestNGTest.f2()'><b>f2</b><br>Test class: test.TestNGTest<br>Parameters: world, 2</td>
+<td title='test.WCSQueryInterfaceTestCase.queryTestSctrip()'><b>queryTestSctrip</b><br>Test class: test.WCSQueryInterfaceTestCase<br>Parameters: {apiCaseName=case7, apiUrl=http://192.168.21.188:8080/wcs/bucket/query, apiData={
+ "warehouseId": "1000",
+ "warehouseArea": "",
+ "bucketCode": "1003"
+}, getResult=, Expectation={"receiveState":"failure","message":"WMS-ERR-41:仓库编号不存在","warehouseId":"1000","warehouseArea":"","bucketCode":"1003","bucketState":"null","stopPoint":"null","robotJobId":"null","robotJobStatus":"null"}, apiProtocol=Http, apiType=Post, apiHead=application/json}</td>
 <td></td>
 <td>0</td>
-<td>test.TestNGTest@5d624da6</td></tr>
+<td>test.WCSQueryInterfaceTestCase@d8355a8</td></tr>
+<tr>
+<td title='test.WCSQueryInterfaceTestCase.queryTestSctrip()'><b>queryTestSctrip</b><br>Test class: test.WCSQueryInterfaceTestCase<br>Parameters: {apiCaseName=case8, apiUrl=http://192.168.21.188:8080/wcs/bucket/query, apiData={
+ "warehouseId": "60001",
+ "warehouseArea": "sss",
+ "bucketCode": "1003"
+}, getResult=, Expectation=, apiProtocol=Http, apiType=Post, apiHead=application/json}</td>
+<td></td>
+<td>0</td>
+<td>test.WCSQueryInterfaceTestCase@d8355a8</td></tr>
+<tr>
+<td title='test.WCSQueryInterfaceTestCase.queryTestSctrip()'><b>queryTestSctrip</b><br>Test class: test.WCSQueryInterfaceTestCase<br>Parameters: {apiCaseName=case9, apiUrl=http://192.168.21.188:8080/wcs/bucket/query, apiData={
+ "warehouseId": "60001",
+ "warehouseArea": "11111111111111111111",
+ "bucketCode": "1003"
+}, getResult=, Expectation=, apiProtocol=Http, apiType=Post, apiHead=application/json}</td>
+<td></td>
+<td>0</td>
+<td>test.WCSQueryInterfaceTestCase@d8355a8</td></tr>
 </table><p>
 </body>
 </html>
