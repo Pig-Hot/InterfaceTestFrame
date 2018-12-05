@@ -120,7 +120,7 @@
                 <configuration>
                     <!--<skipTests>true</skipTests>-->
                     <suiteXmlFiles>
-                        <file>testcase/demo.xml</file>
+                        <file>testcase/WcsQueryTestCase.xml</file>
                     </suiteXmlFiles>
                     <properties>
                         <property>
