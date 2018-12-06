@@ -1,9 +1,18 @@
 package utils;
 
-import javax.mail.*;
+import org.springframework.core.io.FileSystemResource;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.JavaMailSenderImpl;
+import org.springframework.mail.javamail.MimeMessageHelper;
+
+import javax.mail.Authenticator;
+import javax.mail.MessagingException;
+import javax.mail.PasswordAuthentication;
+import javax.mail.Session;
 import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
+import java.io.File;
 import java.util.Properties;
 
 public class SendMailUtils {
@@ -15,7 +24,7 @@ public class SendMailUtils {
     private static final String ALIDM_SMTP_HOST = "smtp.flashhold.com";
     private static final int ALIDM_SMTP_PORT = 465;
 
-    public static void sendMail(String toAddress, String title, String context) {
+    public static void sendMail(String toAddress, String title, String context,String filePath) {
         final Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
         props.put("mail.smtp.host", ALIDM_SMTP_HOST);
@@ -32,7 +41,15 @@ public class SendMailUtils {
             }
         };
         Session mailSession = Session.getInstance(props, authenticator);
-        MimeMessage message = new MimeMessage(mailSession);
+        JavaMailSender mailSender = new JavaMailSenderImpl();
+        ((JavaMailSenderImpl) mailSender).setSession(mailSession);
+        MimeMessage mimeMessage = mailSender.createMimeMessage();
+        MimeMessageHelper message = null;
+        try {
+            message = new MimeMessageHelper(mimeMessage, true, "UTF-8");
+        } catch (MessagingException e) {
+            e.printStackTrace();
+        }
         InternetAddress form = null;
         try {
             form = new InternetAddress(props.getProperty("mail.user"));
@@ -45,17 +62,16 @@ public class SendMailUtils {
         InternetAddress to = null;
         try {
             to = new InternetAddress(toAddress);
-            message.setRecipient(MimeMessage.RecipientType.TO, to);
+            message.setTo(to);
             message.setSubject(title);
-            message.setContent(context, "text/html;charset=UTF-8");
-            Transport.send(message);
+            message.setText(context,true);
+            FileSystemResource file = new FileSystemResource(new File(filePath));
+            message.addAttachment(filePath, file);
+            mailSender.send(mimeMessage);
         } catch (AddressException e) {
             e.printStackTrace();
         } catch (MessagingException e) {
             e.printStackTrace();
         }
     }
-//    public static void main(String[] args) {
-//        SendMailUtils.sendMail("zhuran@flashhold.com", "测试", "测试");
-//    }
 }

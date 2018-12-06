@@ -337,7 +337,7 @@ public class PowerEmailableReporter implements IReporter {
 
 	public void generateSuiteSummaryReport(List<ISuite> suites) {
 		tableStart("testOverview", null);
-		m_out.print("<tr>");
+		m_out.print("<tr bgcolor=\"yellow\">");
 		tableColumnStart("Test");
 		tableColumnStart("Methods<br/>Pass");
 		tableColumnStart("Scenarios<br/>Pass");
@@ -393,7 +393,11 @@ public class PowerEmailableReporter implements IReporter {
 			}
 		}
 		if (qty_tests > 1) {
-			m_out.println("<tr class=\"total\"><td>Total</td>");
+			if(qty_fail!=0) {
+				m_out.println("<tr bgcolor=\"#red\" class=\"total\"><td>Total</td>");
+			}else {
+				m_out.println("<tr bgcolor=\"#green\" class=\"total\"><td>Total</td>");
+			}
 			summaryCell(qty_pass_m, Integer.MAX_VALUE);
 			summaryCell(qty_pass_s, Integer.MAX_VALUE);
 			summaryCell(qty_skip, 0);
@@ -462,15 +466,15 @@ public class PowerEmailableReporter implements IReporter {
 		out.println(".result th {vertical-align:bottom}");
 		out.println(".param th {padding-left:1em;padding-right:1em}");
 		out.println(".param td {padding-left:.5em;padding-right:2em}");
-		out.println(".stripe td,.stripe th {background-color: #E6EBF9}");
+		out.println(".stripe td,.stripe th {background-color: #E0E0E0}");
 		out.println(".numi,.numi_attn {text-align:right}");
 		out.println(".total td {font-weight:bold}");
-		out.println(".passedodd td {background-color: #0A0}");
-		out.println(".passedeven td {background-color: #3F3}");
-		out.println(".skippedodd td {background-color: #CCC}");
-		out.println(".skippedodd td {background-color: #DDD}");
-		out.println(".failedodd td,.numi_attn {background-color: #F33}");
-		out.println(".failedeven td,.stripe .numi_attn {background-color: #D00}");
+		out.println(".passedodd td {background-color: #E0E0E0}");
+		out.println(".passedeven td {background-color: #E0E0E0}");
+		out.println(".skippedodd td {background-color: #E0E0E0}");
+		out.println(".skippedodd td {background-color: #E0E0E0}");
+		out.println(".failedodd td,.numi_attn {background-color: #E0E0E0}");
+		out.println(".failedeven td,.stripe .numi_attn {background-color: #E0E0E0}");
 		out.println(".stacktrace {white-space:pre;font-family:monospace}");
 		out.println(".totop {font-size:85%;text-align:center;border-bottom:2px solid #000}");
 		out.println("</style>");

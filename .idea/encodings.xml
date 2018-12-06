@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/main/java/listen/PowerEmailableReporter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/utils/SendMailUtils.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/utils/UnicodeChange.java" charset="UTF-8" />
   </component>
 </project>

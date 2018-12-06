@@ -4,8 +4,8 @@ utils\SendMailUtils$1.class
 listen\ExtentTestNGIReporterListener.class
 test\WCSQueryInterfaceErrorTestCase.class
 listen\ExtentTestNGIReporterListener$1.class
+test\Test.class
 listen\RetryListener.class
 utils\JSONUtils.class
-api\SendMailServlet.class
 utils\SendMailUtils.class
 utils\TimeUtils.class
