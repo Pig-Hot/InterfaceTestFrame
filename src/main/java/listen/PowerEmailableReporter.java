@@ -431,7 +431,7 @@ public class PowerEmailableReporter implements IReporter {
 	}
 
 	private void tableStart(String cssclass, String id) {
-		m_out.println("<table cellspacing=\"0\" cellpadding=\"0\""
+		m_out.println("<table  cellspacing=\"0\" cellpadding=\"0\""
 				+ (cssclass != null ? " class=\"" + cssclass + "\"" : " style=\"padding-bottom:2em\"")
 				+ (id != null ? " id=\"" + id + "\"" : "") + ">");
 		m_row = 0;
@@ -461,7 +461,7 @@ public class PowerEmailableReporter implements IReporter {
 		out.println("<meta http-equiv=\"content-type\" content=\"text/html; charset=gb2312\">");
 		out.println("<title>TestNG Report</title>");
 		out.println("<style type=\"text/css\">");
-		out.println("table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}");
+		out.println("table {margin-bottom:10px;border-collapse:collapse;empty-cells:show;table-layout:fixed}");
 		out.println("td,th {border:1px solid #009;padding:.25em .5em}");
 		out.println(".result th {vertical-align:bottom}");
 		out.println(".param th {padding-left:1em;padding-right:1em}");

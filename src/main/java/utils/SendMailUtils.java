@@ -46,7 +46,7 @@ public class SendMailUtils {
         MimeMessage mimeMessage = mailSender.createMimeMessage();
         MimeMessageHelper message = null;
         try {
-            message = new MimeMessageHelper(mimeMessage, true, "UTF-8");
+            message = new MimeMessageHelper(mimeMessage, true, "gb2312");
         } catch (MessagingException e) {
             e.printStackTrace();
         }
