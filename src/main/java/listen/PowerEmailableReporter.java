@@ -339,13 +339,13 @@ public class PowerEmailableReporter implements IReporter {
 		tableStart("testOverview", null);
 		m_out.print("<tr>");
 		tableColumnStart("Test");
-		tableColumnStart("Methods<br/>通过");
-		tableColumnStart("Scenarios<br/>通过");
-		tableColumnStart("# 跳过");
-		tableColumnStart("# 失败");
-		tableColumnStart("总计<br/>时间");
-		tableColumnStart("包含<br/>分组");
-		tableColumnStart("忽略<br/>分组");
+		tableColumnStart("Methods<br/>Pass");
+		tableColumnStart("Scenarios<br/>Pass");
+		tableColumnStart("# Skipped");
+		tableColumnStart("# Failed");
+		tableColumnStart("Total<br/>Time");
+		tableColumnStart("Include<br/>Gruops");
+		tableColumnStart("Exclude<br/>Groups");
 		m_out.println("</tr>");
 		NumberFormat formatter = new DecimalFormat("#,##0.0");
 		int qty_tests = 0;
@@ -393,7 +393,7 @@ public class PowerEmailableReporter implements IReporter {
 			}
 		}
 		if (qty_tests > 1) {
-			m_out.println("<tr class=\"total\"><td>总计</td>");
+			m_out.println("<tr class=\"total\"><td>Total</td>");
 			summaryCell(qty_pass_m, Integer.MAX_VALUE);
 			summaryCell(qty_pass_s, Integer.MAX_VALUE);
 			summaryCell(qty_skip, 0);
@@ -454,7 +454,7 @@ public class PowerEmailableReporter implements IReporter {
 		out.println("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">");
 		out.println("<html xmlns=\"http://www.w3.org/1999/xhtml\">");
 		out.println("<head>");
-		out.println("<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">");
+		out.println("<meta http-equiv=\"content-type\" content=\"text/html; charset=gb2312\">");
 		out.println("<title>TestNG Report</title>");
 		out.println("<style type=\"text/css\">");
 		out.println("table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}");
