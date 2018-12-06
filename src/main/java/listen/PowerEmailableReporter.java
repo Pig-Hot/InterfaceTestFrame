@@ -203,7 +203,7 @@ public class PowerEmailableReporter implements IReporter {
 
 	private void startResultSummaryTable(String style) {
 		tableStart(style, "summary");
-		m_out.println("<tr><th>Class</th><th>Method</th><th>Authors</th><th># of<br/>Scenarios</th><th>Running Counts</th>"
+		m_out.println("<col width='15%'><col width='9%'><col width='8%'><col width='9%'><col width='9%'><col width='30%'><col width='14%'><col width='7%'><tr><th>Class</th><th>Method</th><th>Authors</th><th># of<br/>Scenarios</th><th>Running Counts</th>"
 				+ "<th>Parameters</th><th>Start</th><th>Time<br/>(ms)</th></tr>");
 		m_row = 0;
 	}
@@ -461,8 +461,9 @@ public class PowerEmailableReporter implements IReporter {
 		out.println("<meta http-equiv=\"content-type\" content=\"text/html; charset=gb2312\">");
 		out.println("<title>TestNG Report</title>");
 		out.println("<style type=\"text/css\">");
-		out.println("table {margin-bottom:10px;border-collapse:collapse;empty-cells:show;table-layout:fixed}");
-		out.println("td,th {border:1px solid #009;padding:.25em .5em}");
+		out.println("table {margin-bottom:10px;border-collapse:collapse;empty-cells:show;}");
+		out.println(".methodOverview {width:100%;}");
+		out.println("td,th {border:1px solid #009;padding:.25em .5em;word-break: break-all}");
 		out.println(".result th {vertical-align:bottom}");
 		out.println(".param th {padding-left:1em;padding-right:1em}");
 		out.println(".param td {padding-left:.5em;padding-right:2em}");
