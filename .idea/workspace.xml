@@ -7,27 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed5553b2-bfd2-4c09-b0e5-e4d75d2e4553" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/testngReports/jenkins-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/testngReports/jenkins-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/listen/PowerEmailableReporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listen/PowerEmailableReporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/listen/PowerEmailableReporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/listen/PowerEmailableReporter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/InterfaceErrorTestSuite/WCSQueryInterfaceErrorTestCase.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/InterfaceErrorTestSuite/WCSQueryInterfaceErrorTestCase.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/InterfaceErrorTestSuite/WCSQueryInterfaceErrorTestCase.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/InterfaceErrorTestSuite/WCSQueryInterfaceErrorTestCase.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/InterfaceTestSuite/WCSQueryInterfaceTestCase.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/InterfaceTestSuite/WCSQueryInterfaceTestCase.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/InterfaceTestSuite/WCSQueryInterfaceTestCase.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/InterfaceTestSuite/WCSQueryInterfaceTestCase.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.WCSQueryInterfaceErrorTestCase.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.WCSQueryInterfaceErrorTestCase.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.WCSQueryInterfaceTestCase.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.WCSQueryInterfaceTestCase.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/InterfaceErrorTestSuite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/InterfaceErrorTestSuite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/InterfaceErrorTestSuite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/InterfaceErrorTestSuite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/InterfaceTestSuite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/InterfaceTestSuite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/InterfaceTestSuite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/InterfaceTestSuite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-report/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -140,10 +122,18 @@
       <file leaf-file-name="PowerEmailableReporter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/listen/PowerEmailableReporter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="205" column="151" selection-start-line="205" selection-start-column="151" selection-end-line="205" selection-end-column="151" />
+            <state relative-caret-position="159">
+              <caret line="376" column="24" lean-forward="true" selection-start-line="376" selection-start-column="24" selection-end-line="376" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#16089#16090#0" expanded="true" />
+                <element signature="e#16144#16145#0" expanded="true" />
+                <element signature="e#16472#16473#0" expanded="true" />
+                <element signature="e#16516#16517#0" expanded="true" />
+                <element signature="e#16564#16565#0" expanded="true" />
+                <element signature="e#16596#16597#0" expanded="true" />
+                <element signature="e#18519#18520#0" expanded="true" />
+                <element signature="e#18555#18556#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,7 +153,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>usage</find>
       <find>m_configuration</find>
       <find>pass</find>
       <find>suiteFailSize</find>
@@ -193,6 +182,7 @@
       <find>th</find>
       <find>overvie</find>
       <find>&lt;th&gt;</find>
+      <find>resultTotalTime</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -685,7 +675,7 @@
       <workItem from="1543471216138" duration="22600000" />
       <workItem from="1543911822258" duration="821000" />
       <workItem from="1543915542884" duration="274000" />
-      <workItem from="1543999010359" duration="26378000" />
+      <workItem from="1543999010359" duration="28338000" />
     </task>
     <servers />
   </component>
@@ -722,7 +712,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200237000" />
+    <option name="totallyTimeSpent" value="202197000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1258,10 +1248,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/listen/PowerEmailableReporter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="205" column="151" selection-start-line="205" selection-start-column="151" selection-end-line="205" selection-end-column="151" />
+        <state relative-caret-position="159">
+          <caret line="376" column="24" lean-forward="true" selection-start-line="376" selection-start-column="24" selection-end-line="376" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#16089#16090#0" expanded="true" />
+            <element signature="e#16144#16145#0" expanded="true" />
+            <element signature="e#16472#16473#0" expanded="true" />
+            <element signature="e#16516#16517#0" expanded="true" />
+            <element signature="e#16564#16565#0" expanded="true" />
+            <element signature="e#16596#16597#0" expanded="true" />
+            <element signature="e#18519#18520#0" expanded="true" />
+            <element signature="e#18555#18556#0" expanded="true" />
           </folding>
         </state>
       </provider>
