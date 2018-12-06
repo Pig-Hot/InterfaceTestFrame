@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.609" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.735" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Java\jdk1.8.0_131\jre\bin"/>
@@ -62,13 +62,13 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="queryTestSctrip" classname="test.WCSQueryInterfaceTestCase" time="0.752"/>
-  <testcase name="queryTestSctrip" classname="test.WCSQueryInterfaceTestCase" time="0.001"/>
-  <testcase name="queryTestSctrip" classname="test.WCSQueryInterfaceTestCase" time="0.013"/>
-  <testcase name="queryTestSctrip" classname="test.WCSQueryInterfaceTestCase" time="0.001"/>
-  <testcase name="queryTestSctrip" classname="test.WCSQueryInterfaceTestCase" time="0.022"/>
-  <testcase name="queryTestSctrip" classname="test.WCSQueryInterfaceErrorTestCase" time="0.015"/>
-  <testcase name="queryTestSctrip" classname="test.WCSQueryInterfaceErrorTestCase" time="0.001"/>
-  <testcase name="queryTestSctrip" classname="test.WCSQueryInterfaceErrorTestCase" time="0.01"/>
-  <testcase name="queryTestSctrip" classname="test.WCSQueryInterfaceErrorTestCase" time="0.024"/>
+  <testcase name="queryTestSctrip" classname="test.WCSQueryInterfaceErrorTestCase" time="0.808"/>
+  <testcase name="queryTestSctrip" classname="test.WCSQueryInterfaceErrorTestCase" time="0.054"/>
+  <testcase name="queryTestSctrip" classname="test.WCSQueryInterfaceErrorTestCase" time="0.006"/>
+  <testcase name="queryTestSctrip" classname="test.WCSQueryInterfaceErrorTestCase" time="0.002"/>
+  <testcase name="queryTestSctrip" classname="test.WCSQueryInterfaceTestCase" time="0.008"/>
+  <testcase name="queryTestSctrip" classname="test.WCSQueryInterfaceTestCase" time="0.004"/>
+  <testcase name="queryTestSctrip" classname="test.WCSQueryInterfaceTestCase" time="0.003"/>
+  <testcase name="queryTestSctrip" classname="test.WCSQueryInterfaceTestCase" time="0"/>
+  <testcase name="queryTestSctrip" classname="test.WCSQueryInterfaceTestCase" time="0.01"/>
 </testsuite>

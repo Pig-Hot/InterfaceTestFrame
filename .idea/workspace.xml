@@ -7,7 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed5553b2-bfd2-4c09-b0e5-e4d75d2e4553" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/testngReports/jenkins-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/testngReports/jenkins-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/listen/PowerEmailableReporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listen/PowerEmailableReporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-report/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,8 +64,8 @@
       <file leaf-file-name="PowerEmailableReporter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/listen/PowerEmailableReporter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="455" column="76" selection-start-line="455" selection-end-line="456" />
+            <state relative-caret-position="159">
+              <caret line="456" column="89" selection-start-line="456" selection-start-column="89" selection-end-line="456" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#14210#14211#0" expanded="true" />
@@ -74,6 +77,15 @@
                 <element signature="e#16550#16551#0" expanded="true" />
                 <element signature="e#16586#16587#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/TimeUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -122,18 +134,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-report/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="28" />
-              <folding>
-                <element signature="n#div#5;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -148,7 +148,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find />
       <find>attachReporter</find>
       <find>time</find>
       <find>re</find>
@@ -178,6 +177,7 @@
       <find>paramETERsT</find>
       <find>parameterString</find>
       <find>总计</find>
+      <find>start</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -676,7 +676,7 @@
       <workItem from="1543471216138" duration="22600000" />
       <workItem from="1543911822258" duration="821000" />
       <workItem from="1543915542884" duration="274000" />
-      <workItem from="1543999010359" duration="13016000" />
+      <workItem from="1543999010359" duration="13641000" />
     </task>
     <servers />
   </component>
@@ -713,7 +713,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186875000" />
+    <option name="totallyTimeSpent" value="187500000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -748,8 +748,8 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7152956" weight="0.40359896" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.17344174" />
-      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.4903599" visible="true" weight="0.28534704" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.495283" visible="true" weight="0.28920308" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" sideWeight="0.4903599" visible="true" weight="0.28534704" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.495283" visible="true" weight="0.28920308" />
       <window_info id="Web" order="5" sideWeight="0.504717" side_tool="true" weight="0.28246754" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="6" sideWeight="0.504717" side_tool="true" weight="0.28246754" />
@@ -840,7 +840,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/listen/PowerEmailableReporter.java</url>
-          <line>174</line>
+          <line>175</line>
           <properties />
           <option name="timeStamp" value="93" />
         </line-breakpoint>
@@ -1030,13 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="65" column="80" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/TimeUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1237,10 +1230,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/TimeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/listen/PowerEmailableReporter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="455" column="76" selection-start-line="455" selection-end-line="456" />
+        <state relative-caret-position="159">
+          <caret line="456" column="89" selection-start-line="456" selection-start-column="89" selection-end-line="456" selection-end-column="89" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#14210#14211#0" expanded="true" />

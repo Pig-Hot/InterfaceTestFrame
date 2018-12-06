@@ -9,6 +9,7 @@ import org.testng.collections.Lists;
 import org.testng.internal.Utils;
 import org.testng.log4testng.Logger;
 import org.testng.xml.XmlSuite;
+import utils.TimeUtils;
 
 import java.io.*;
 import java.text.DecimalFormat;
@@ -187,7 +188,7 @@ public class PowerEmailableReporter implements IReporter {
 						+ (description != null && description.length() > 0 ? "(\"" + description + "\")" : "") + "</a>"
 						+ (null == testInstanceName ? "" : "<br>(" + testInstanceName + ")") + "</td><td>" + this.getAuthors(className, method)
 						+ "</td><td class=\"numi\">" + resultSet.size() + "</td>" + "<td>" + (count == 0 ? "" : count) + "</td>" + "<td>"
-						+ parameterString + "</td>"	+ "<td>" + start + "</td>" + "<td class=\"numi\">" + (end - start) + "</td>" + "</tr>");
+						+ parameterString + "</td>"	+ "<td>" + TimeUtils.getHoursAfterDate(start,0) + "</td>" + "<td class=\"numi\">" + (end - start) + "</td>" + "</tr>");
 			}
 			if (mq > 0) {
 				cq += 1;
@@ -338,13 +339,13 @@ public class PowerEmailableReporter implements IReporter {
 		tableStart("testOverview", null);
 		m_out.print("<tr>");
 		tableColumnStart("Test");
-		tableColumnStart("Methods<br/>通过");
-		tableColumnStart("Scenarios<br/>通过");
-		tableColumnStart("# 跳过");
-		tableColumnStart("# 失败");
-		tableColumnStart("总计<br/>时间");
-		tableColumnStart("包含<br/>分组");
-		tableColumnStart("忽略<br/>分组");
+		tableColumnStart("Methods<br/>閫氳繃");
+		tableColumnStart("Scenarios<br/>閫氳繃");
+		tableColumnStart("# 璺宠繃");
+		tableColumnStart("# 澶辫触");
+		tableColumnStart("鎬昏<br/>鏃堕棿");
+		tableColumnStart("鍖呭惈<br/>鍒嗙粍");
+		tableColumnStart("蹇界暐<br/>鍒嗙粍");
 		m_out.println("</tr>");
 		NumberFormat formatter = new DecimalFormat("#,##0.0");
 		int qty_tests = 0;
@@ -392,7 +393,7 @@ public class PowerEmailableReporter implements IReporter {
 			}
 		}
 		if (qty_tests > 1) {
-			m_out.println("<tr class=\"total\"><td>总计</td>");
+			m_out.println("<tr class=\"total\"><td>鎬昏</td>");
 			summaryCell(qty_pass_m, Integer.MAX_VALUE);
 			summaryCell(qty_pass_s, Integer.MAX_VALUE);
 			summaryCell(qty_skip, 0);
@@ -453,7 +454,7 @@ public class PowerEmailableReporter implements IReporter {
 		out.println("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">");
 		out.println("<html xmlns=\"http://www.w3.org/1999/xhtml\">");
 		out.println("<head>");
-//		out.println("<meta http-equiv=\"content-type\" content=\"text/html; charset=gb2312\">");
+		out.println("<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">");
 		out.println("<title>TestNG Report</title>");
 		out.println("<style type=\"text/css\">");
 		out.println("table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}");
