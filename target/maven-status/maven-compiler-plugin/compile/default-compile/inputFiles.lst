@@ -1,13 +1,11 @@
 F:\performance\QuicktronInterfaceFrame\src\main\java\factory\abst\impl\HttpPostRequest.java
+F:\performance\QuicktronInterfaceFrame\src\main\java\utils\UnicodeChange.java
 F:\performance\QuicktronInterfaceFrame\src\main\java\utils\conn\impl\MysqlImpl.java
 F:\performance\QuicktronInterfaceFrame\src\main\java\test\WCSQueryInterfaceTestCase.java
 F:\performance\QuicktronInterfaceFrame\src\main\java\api\APITestServlet.java
-F:\performance\QuicktronInterfaceFrame\src\main\java\test\InterfaceTestDemo.java
 F:\performance\QuicktronInterfaceFrame\src\main\java\api\CountSerlvet.java
 F:\performance\QuicktronInterfaceFrame\src\main\java\factory\impl\RequestFactoryImpl.java
-F:\performance\QuicktronInterfaceFrame\src\main\java\test\TestNGTest.java
 F:\performance\QuicktronInterfaceFrame\src\main\java\factory\abst\AbstractHttpRequest.java
-F:\performance\QuicktronInterfaceFrame\src\main\java\test\HttpClientTest.java
 F:\performance\QuicktronInterfaceFrame\src\main\java\utils\SendMailUtils.java
 F:\performance\QuicktronInterfaceFrame\src\main\java\data\CaseResult.java
 F:\performance\QuicktronInterfaceFrame\src\main\java\data\ResultData.java
@@ -21,7 +19,6 @@ F:\performance\QuicktronInterfaceFrame\src\main\java\factory\IRequestFactory.jav
 F:\performance\QuicktronInterfaceFrame\src\main\java\utils\conn\IJdbcOperation.java
 F:\performance\QuicktronInterfaceFrame\src\main\java\listen\TestngRetry.java
 F:\performance\QuicktronInterfaceFrame\src\main\java\listen\ExtentTestNGIReporterListener.java
-F:\performance\QuicktronInterfaceFrame\src\main\java\test\HttpTestNGTest.java
 F:\performance\QuicktronInterfaceFrame\src\main\java\utils\JSONUtils.java
 F:\performance\QuicktronInterfaceFrame\src\main\java\data\ResultEnum.java
 F:\performance\QuicktronInterfaceFrame\src\main\java\factory\abst\impl\HttpGetRequest.java

@@ -41,8 +41,8 @@ public class PowerEmailableReporter implements IReporter {
 		startHtml(m_out);
 		generateSuiteSummaryReport(suites);
 		testIds.clear();
-//		generateMethodSummaryReport(suites);
-//		testIds.clear();
+		generateMethodSummaryReport(suites);
+		testIds.clear();
 //		generateMethodDetailReport(suites);
 //		testIds.clear();
 		endHtml(m_out);
@@ -55,158 +55,157 @@ public class PowerEmailableReporter implements IReporter {
 		return new PrintWriter(new BufferedWriter(new FileWriter(new File(outdir, "jenkins-report.html"))));
 	}
 
-//	protected void generateMethodSummaryReport(List<ISuite> suites) {
-//		startResultSummaryTable("methodOverview");
-//		int testIndex = 1;
-//		for (ISuite suite : suites) {
-//			if (suites.size() > 1) {
-//				titleRow(suite.getName(), 5);
-//			}
-//			Map<String, ISuiteResult> r = suite.getResults();
-//			for (ISuiteResult r2 : r.values()) {
-//				ITestContext testContext = r2.getTestContext();
-//				String testName = testContext.getName();
-//				m_testIndex = testIndex;
-//
-//				resultSummary(suite, testContext.getSkippedConfigurations(), testName, "skipped", " (configuration methods)");
-//				resultSummary(suite, testContext.getSkippedTests(), testName, "skipped", "");
-//				resultSummary(suite, testContext.getFailedConfigurations(), testName, "failed", " (configuration methods)");
-//				resultSummary(suite, testContext.getFailedTests(), testName, "failed", "");
-//				resultSummary(suite, testContext.getPassedTests(), testName, "passed", "");
-//
-//				testIndex++;
-//			}
-//		}
-//		m_out.println("</table>");
-//	}
-//
-//	protected void generateMethodDetailReport(List<ISuite> suites) {
-//		for (ISuite suite : suites) {
-//			Map<String, ISuiteResult> r = suite.getResults();
-//			for (ISuiteResult r2 : r.values()) {
-//				ITestContext testContext = r2.getTestContext();
-//				if (r.values().size() > 0) {
-//					m_out.println("<h1>" + testContext.getName() + "</h1>");
-//				}
-//				resultDetail(testContext.getFailedConfigurations());
-//				resultDetail(testContext.getFailedTests());
-//				resultDetail(testContext.getSkippedConfigurations());
-//				resultDetail(testContext.getSkippedTests());
-//				resultDetail(testContext.getPassedTests());
-//			}
-//		}
-//	}
+	protected void generateMethodSummaryReport(List<ISuite> suites) {
+		startResultSummaryTable("methodOverview");
+		int testIndex = 1;
+		for (ISuite suite : suites) {
+			if (suites.size() > 1) {
+				titleRow(suite.getName(), 5);
+			}
+			Map<String, ISuiteResult> r = suite.getResults();
+			for (ISuiteResult r2 : r.values()) {
+				ITestContext testContext = r2.getTestContext();
+				String testName = testContext.getName();
+				m_testIndex = testIndex;
+
+				resultSummary(suite, testContext.getSkippedConfigurations(), testName, "skipped", " (configuration methods)");
+				resultSummary(suite, testContext.getSkippedTests(), testName, "skipped", "");
+				resultSummary(suite, testContext.getFailedConfigurations(), testName, "failed", " (configuration methods)");
+				resultSummary(suite, testContext.getFailedTests(), testName, "failed", "");
+				resultSummary(suite, testContext.getPassedTests(), testName, "passed", "");
+
+				testIndex++;
+			}
+		}
+		m_out.println("</table>");
+	}
+
+	protected void generateMethodDetailReport(List<ISuite> suites) {
+		for (ISuite suite : suites) {
+			Map<String, ISuiteResult> r = suite.getResults();
+			for (ISuiteResult r2 : r.values()) {
+				ITestContext testContext = r2.getTestContext();
+				if (r.values().size() > 0) {
+					m_out.println("<h1>" + testContext.getName() + "</h1>");
+				}
+				resultDetail(testContext.getFailedConfigurations());
+				resultDetail(testContext.getFailedTests());
+				resultDetail(testContext.getSkippedConfigurations());
+				resultDetail(testContext.getSkippedTests());
+				resultDetail(testContext.getPassedTests());
+			}
+		}
+	}
 
 
-//	private void resultSummary(ISuite suite, IResultMap tests, String testname, String style, String details) {
-//		if (tests.getAllResults().size() > 0) {
-//			StringBuffer buff = new StringBuffer();
-//			String lastClassName = "";
-//			int mq = 0;
-//			int cq = 0;
-//			Map<String, Integer> methods = new HashMap<String, Integer>();
-//			Set<String> setMethods = new HashSet<String>();
-//			for (ITestNGMethod method : getMethodSet(tests, suite)) {
-//				m_row += 1;
-//
-//				ITestClass testClass = method.getTestClass();
-//				String className = testClass.getName();
-//				if (mq == 0) {
-//					String id = (m_testIndex == null ? null : "t" + Integer.toString(m_testIndex));
-//					titleRow(testname + " &#8212; " + style + details, 5, id);
-//					m_testIndex = null;
-//				}
-//				if (!className.equalsIgnoreCase(lastClassName)) {
-//					if (mq > 0) {
-//						cq += 1;
-//						m_out.print("<tr class=\"" + style + (cq % 2 == 0 ? "even" : "odd") + "\">" + "<td");
-//						if (mq > 1) {
-//							m_out.print(" rowspan=\"" + mq + "\"");
-//						}
-//						m_out.println(">" + lastClassName + "</td>" + buff);
-//					}
-//					mq = 0;
-//					buff.setLength(0);
-//					lastClassName = className;
-//				}
-//				Set<ITestResult> resultSet = tests.getResults(method);
-//				long end = Long.MIN_VALUE;
-//				long start = Long.MAX_VALUE;
-//				for (ITestResult testResult : tests.getResults(method)) {
-//					if (testResult.getEndMillis() > end) {
-//						end = testResult.getEndMillis();
-//					}
-//					if (testResult.getStartMillis() < start) {
-//						start = testResult.getStartMillis();
-//					}
-//				}
-//				mq += 1;
-//				if (mq > 1) {
-//					buff.append("<tr class=\"" + style + (cq % 2 == 0 ? "odd" : "even") + "\">");
-//				}
-//				String description = method.getDescription();
-//				String testInstanceName = resultSet.toArray(new ITestResult[] {})[0].getTestName();
-//				// Calculate each test run times, the result shown in the html report.
-//				ITestResult[] results = resultSet.toArray(new ITestResult[] {});
-//				String methodName = method.getMethodName();
-//				if (setMethods.contains(methodName)) {
-//					methods.put(methodName, methods.get(methodName) + 1);
-//				} else {
-//					setMethods.add(methodName);
-//					methods.put(methodName, 0);
-//				}
-//				String parameterString = "";
-//				int count = 0;
-//
-//				ITestResult result = null;
-//				if (results.length > methods.get(methodName)) {
-//					result = results[methods.get(methodName)];
-//					int testId = getId(result);
-//
-//					for (Integer id : allRunTestIds) {
-//						if (id.intValue() == testId)
-//							count++;
-//					}
-//					Object[] parameters = result.getParameters();
-//
-//					boolean hasParameters = parameters != null && parameters.length > 0;
-//					if (hasParameters) {
-//						for (Object p : parameters) {
-//							parameterString = parameterString + Utils.escapeHtml(p.toString()) + " ";
-//						}
-//					}
-//				}
-//
-//
-//				int methodId = method.getTestClass().getName().hashCode();
-//				methodId = methodId + method.getMethodName().hashCode();
-//				if(result != null)
-//					methodId = methodId + (result.getParameters() != null ? Arrays.hashCode(result.getParameters()) : 0);
-//
-//
-//				buff.append("<td><a href=\"#m" + methodId + "\">" + qualifiedName(method) + " "
-//						+ (description != null && description.length() > 0 ? "(\"" + description + "\")" : "") + "</a>"
-//						+ (null == testInstanceName ? "" : "<br>(" + testInstanceName + ")") + "</td><td>" + this.getAuthors(className, method)
-//						+ "</td><td class=\"numi\">" + resultSet.size() + "</td>" + "<td>" + (count == 0 ? "" : count) + "</td>" + "<td>"
-//						+ parameterString + "</td>"	+ "<td>" + start + "</td>" + "<td class=\"numi\">" + (end - start) + "</td>" + "</tr>");
-//			}
-//			if (mq > 0) {
-//				cq += 1;
-//				m_out.print("<tr class=\"" + style + (cq % 2 == 0 ? "even" : "odd") + "\">" + "<td");
-//				if (mq > 1) {
-//					m_out.print(" rowspan=\"" + mq + "\"");
-//				}
-//				m_out.println(">" + lastClassName + "</td>" + buff);
-//			}
-//		}
-//	}
-//
-//	private void startResultSummaryTable(String style) {
-//		tableStart(style, "summary");
-//		m_out.println("<tr><th>Class</th><th>Method</th><th>Authors</th><th># of<br/>Scenarios</th><th>Running Counts</th>"
-//				+ "<th>Parameters</th><th>Start</th><th>Time<br/>(ms)</th></tr>");
-//		m_row = 0;
-//	}
+	private void resultSummary(ISuite suite, IResultMap tests, String testname, String style, String details) {
+		if (tests.getAllResults().size() > 0) {
+			StringBuffer buff = new StringBuffer();
+			String lastClassName = "";
+			int mq = 0;
+			int cq = 0;
+			Map<String, Integer> methods = new HashMap<String, Integer>();
+			Set<String> setMethods = new HashSet<String>();
+			for (ITestNGMethod method : getMethodSet(tests, suite)) {
+				m_row += 1;
+
+				ITestClass testClass = method.getTestClass();
+				String className = testClass.getName();
+				if (mq == 0) {
+					String id = (m_testIndex == null ? null : "t" + Integer.toString(m_testIndex));
+					titleRow(testname + " &#8212; " + style + details, 5, id);
+					m_testIndex = null;
+				}
+				if (!className.equalsIgnoreCase(lastClassName)) {
+					if (mq > 0) {
+						cq += 1;
+						m_out.print("<tr class=\"" + style + (cq % 2 == 0 ? "even" : "odd") + "\">" + "<td");
+						if (mq > 1) {
+							m_out.print(" rowspan=\"" + mq + "\"");
+						}
+						m_out.println(">" + lastClassName + "</td>" + buff);
+					}
+					mq = 0;
+					buff.setLength(0);
+					lastClassName = className;
+				}
+				Set<ITestResult> resultSet = tests.getResults(method);
+				long end = Long.MIN_VALUE;
+				long start = Long.MAX_VALUE;
+				for (ITestResult testResult : tests.getResults(method)) {
+					if (testResult.getEndMillis() > end) {
+						end = testResult.getEndMillis();
+					}
+					if (testResult.getStartMillis() < start) {
+						start = testResult.getStartMillis();
+					}
+				}
+				mq += 1;
+				if (mq > 1) {
+					buff.append("<tr class=\"" + style + (cq % 2 == 0 ? "odd" : "even") + "\">");
+				}
+				String description = method.getDescription();
+				String testInstanceName = resultSet.toArray(new ITestResult[] {})[0].getTestName();
+				// Calculate each test run times, the result shown in the html report.
+				ITestResult[] results = resultSet.toArray(new ITestResult[] {});
+				String methodName = method.getMethodName();
+				if (setMethods.contains(methodName)) {
+					methods.put(methodName, methods.get(methodName) + 1);
+				} else {
+					setMethods.add(methodName);
+					methods.put(methodName, 0);
+				}
+				String parameterString = "";
+				int count = 0;
+
+				ITestResult result = null;
+				if (results.length > methods.get(methodName)) {
+					result = results[methods.get(methodName)];
+					int testId = getId(result);
+
+					for (Integer id : allRunTestIds) {
+						if (id.intValue() == testId)
+							count++;
+					}
+					Object[] parameters = result.getParameters();
+
+					boolean hasParameters = parameters != null && parameters.length > 0;
+					if (hasParameters) {
+						for (Object p : parameters) {
+							parameterString = parameterString + Utils.escapeHtml(p.toString()) + " ";
+						}
+					}
+				}
+
+				int methodId = method.getTestClass().getName().hashCode();
+				methodId = methodId + method.getMethodName().hashCode();
+				if(result != null)
+					methodId = methodId + (result.getParameters() != null ? Arrays.hashCode(result.getParameters()) : 0);
+
+
+				buff.append("<td><a href=\"#m" + methodId + "\">" + qualifiedName(method) + " "
+						+ (description != null && description.length() > 0 ? "(\"" + description + "\")" : "") + "</a>"
+						+ (null == testInstanceName ? "" : "<br>(" + testInstanceName + ")") + "</td><td>" + this.getAuthors(className, method)
+						+ "</td><td class=\"numi\">" + resultSet.size() + "</td>" + "<td>" + (count == 0 ? "" : count) + "</td>" + "<td>"
+						+ parameterString + "</td>"	+ "<td>" + start + "</td>" + "<td class=\"numi\">" + (end - start) + "</td>" + "</tr>");
+			}
+			if (mq > 0) {
+				cq += 1;
+				m_out.print("<tr class=\"" + style + (cq % 2 == 0 ? "even" : "odd") + "\">" + "<td");
+				if (mq > 1) {
+					m_out.print(" rowspan=\"" + mq + "\"");
+				}
+				m_out.println(">" + lastClassName + "</td>" + buff);
+			}
+		}
+	}
+
+	private void startResultSummaryTable(String style) {
+		tableStart(style, "summary");
+		m_out.println("<tr><th>Class</th><th>Method</th><th>Authors</th><th># of<br/>Scenarios</th><th>Running Counts</th>"
+				+ "<th>Parameters</th><th>Start</th><th>Time<br/>(ms)</th></tr>");
+		m_row = 0;
+	}
 
 	private String qualifiedName(ITestNGMethod method) {
 		StringBuilder addon = new StringBuilder();
@@ -339,13 +338,13 @@ public class PowerEmailableReporter implements IReporter {
 		tableStart("testOverview", null);
 		m_out.print("<tr>");
 		tableColumnStart("Test");
-		tableColumnStart("Methods<br/>Passed");
-		tableColumnStart("Scenarios<br/>Passed");
-		tableColumnStart("# skipped");
-		tableColumnStart("# failed");
-		tableColumnStart("Total<br/>Time");
-		tableColumnStart("Included<br/>Groups");
-		tableColumnStart("Excluded<br/>Groups");
+		tableColumnStart("Methods<br/>通过");
+		tableColumnStart("Scenarios<br/>通过");
+		tableColumnStart("# 跳过");
+		tableColumnStart("# 失败");
+		tableColumnStart("总计<br/>时间");
+		tableColumnStart("包含<br/>分组");
+		tableColumnStart("忽略<br/>分组");
 		m_out.println("</tr>");
 		NumberFormat formatter = new DecimalFormat("#,##0.0");
 		int qty_tests = 0;
@@ -393,7 +392,7 @@ public class PowerEmailableReporter implements IReporter {
 			}
 		}
 		if (qty_tests > 1) {
-			m_out.println("<tr class=\"total\"><td>Total</td>");
+			m_out.println("<tr class=\"total\"><td>总计</td>");
 			summaryCell(qty_pass_m, Integer.MAX_VALUE);
 			summaryCell(qty_pass_s, Integer.MAX_VALUE);
 			summaryCell(qty_skip, 0);
@@ -454,7 +453,7 @@ public class PowerEmailableReporter implements IReporter {
 		out.println("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd\">");
 		out.println("<html xmlns=\"http://www.w3.org/1999/xhtml\">");
 		out.println("<head>");
-		out.println("<meta charset='utf-8' />");
+		out.println("<meta http-equiv=\"content-type\" content=\"text/html; charset=gb2312\">");
 		out.println("<title>TestNG Report</title>");
 		out.println("<style type=\"text/css\">");
 		out.println("table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}");
@@ -516,10 +515,10 @@ public class PowerEmailableReporter implements IReporter {
 		return allAuthors.trim();
 	}
 
-//	private String getClassComment(String className) {
-//		JavaClass cls = builder.getClassByName(className);
-//		return cls.getComment();
-//	}
+	private String getClassComment(String className) {
+		JavaClass cls = builder.getClassByName(className);
+		return cls.getComment();
+	}
 
 	private int getId(ITestResult result) {
 		int id = result.getTestClass().getName().hashCode();
