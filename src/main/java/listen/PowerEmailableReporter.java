@@ -98,25 +98,25 @@ public class PowerEmailableReporter implements IReporter {
         }
     }
 
-//    private List<String> resultTotalTime(ISuite suite, IResultMap tests) {
-//        List<String> list = new ArrayList<String>();
-//        if (tests.getAllResults().size() > 0) {
-//            for (ITestNGMethod method : getMethodSet(tests, suite)) {
-//                long end = Long.MIN_VALUE;
-//                long start = Long.MAX_VALUE;
-//                for (ITestResult testResult : tests.getResults(method)) {
-//                    if (testResult.getEndMillis() > end) {
-//                        end = testResult.getEndMillis();
-//                    }
-//                    if (testResult.getStartMillis() < start) {
-//                        start = testResult.getStartMillis();
-//                    }
-//                }
-//                list.add(String.valueOf(end - start));
-//            }
-//        }
-//        return list;
-//    }
+    private List<String> resultTotalTime(ISuite suite, IResultMap tests) {
+        List<String> list = new ArrayList<String>();
+        if (tests.getAllResults().size() > 0) {
+            for (ITestNGMethod method : getMethodSet(tests, suite)) {
+                long end = Long.MIN_VALUE;
+                long start = Long.MAX_VALUE;
+                for (ITestResult testResult : tests.getResults(method)) {
+                    if (testResult.getEndMillis() > end) {
+                        end = testResult.getEndMillis();
+                    }
+                    if (testResult.getStartMillis() < start) {
+                        start = testResult.getStartMillis();
+                    }
+                }
+                list.add(String.valueOf(end - start));
+            }
+        }
+        return list;
+    }
 
     private void resultSummary(ISuite suite, IResultMap tests, String testname, String style, String details) {
         if (tests.getAllResults().size() > 0) {
@@ -393,11 +393,11 @@ public class PowerEmailableReporter implements IReporter {
                 qty_pass_s += q;
                 summaryCell(q, Integer.MAX_VALUE);
 
-                q = getMethodSet(overview.getSkippedTests(), suite).size();
+                q = overview.getSkippedTests().size();
                 qty_skip += q;
                 summaryCell(q, 0);
 
-                q = getMethodSet(overview.getFailedTests(), suite).size();
+                q = overview.getFailedTests().size();
                 qty_fail += q;
                 summaryCell(q, 0);
 
@@ -414,9 +414,9 @@ public class PowerEmailableReporter implements IReporter {
         }
         if (qty_tests > 1) {
             if (qty_fail != 0) {
-                m_out.println("<tr bgcolor=\"#red\" class=\"total\"><td>Total</td>");
+                m_out.println("<tr bgcolor=\"red\" class=\"total\"><td>Total</td>");
             } else {
-                m_out.println("<tr bgcolor=\"#green\" class=\"total\"><td>Total</td>");
+                m_out.println("<tr bgcolor=\"green\" class=\"total\"><td>Total</td>");
             }
             summaryCell(qty_pass_m, Integer.MAX_VALUE);
             summaryCell(qty_pass_s, Integer.MAX_VALUE);
@@ -494,10 +494,10 @@ public class PowerEmailableReporter implements IReporter {
         out.println(".passedeven td {background-color: #E0E0E0}");
         out.println(".skippedodd td {background-color: #E0E0E0}");
         out.println(".skippedodd td {background-color: #E0E0E0}");
-        out.println(".failedodd td,.numi_attn {background-color: #E0E0E0}");
-        out.println(".failedeven td,.stripe .numi_attn {background-color: #E0E0E0}");
+//        out.println(".failedodd td,.numi_attn {background-color: #E0E0E0}");
+//        out.println(".failedeven td,.stripe .numi_attn {background-color: #E0E0E0}");
         out.println(".stacktrace {white-space:pre;font-family:monospace}");
-        out.println(".totop {font-size:85%;text-align:center;border-bottom:2px solid #000}");
+        out.println(".totop {font-size:85%;text-align:center;border-bottom:2px solid #FF4949}");
         out.println("</style>");
         out.println("</head>");
         out.println("<body>");

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="InterfaceErrorTestSuite" duration-ms="1329" started-at="2018-12-06T07:34:18Z" finished-at="2018-12-06T07:34:19Z">
+  <suite name="InterfaceErrorTestSuite" duration-ms="2147" started-at="2018-12-10T09:15:35Z" finished-at="2018-12-10T09:15:37Z">
     <groups>
     </groups>
-    <test name="WCSQueryInterfaceErrorTestCase" duration-ms="1329" started-at="2018-12-06T07:34:18Z" finished-at="2018-12-06T07:34:19Z">
+    <test name="WCSQueryInterfaceErrorTestCase" duration-ms="2147" started-at="2018-12-10T09:15:35Z" finished-at="2018-12-10T09:15:37Z">
       <class name="test.WCSQueryInterfaceErrorTestCase">
-        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceErrorTestCase@4e1d422d]" name="queryTestSctrip" duration-ms="539" started-at="2018-12-06T07:34:18Z" data-provider="queryTestCase" finished-at="2018-12-06T07:34:19Z">
+        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceErrorTestCase@4e1d422d]" name="queryTestSctrip" duration-ms="965" started-at="2018-12-10T09:15:36Z" data-provider="queryTestCase" finished-at="2018-12-10T09:15:37Z">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- queryTestSctrip -->
-        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceErrorTestCase@4e1d422d]" name="queryTestSctrip" duration-ms="24" started-at="2018-12-06T07:34:19Z" data-provider="queryTestCase" finished-at="2018-12-06T07:34:19Z">
+        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceErrorTestCase@4e1d422d]" name="queryTestSctrip" duration-ms="17" started-at="2018-12-10T09:15:37Z" data-provider="queryTestCase" finished-at="2018-12-10T09:15:37Z">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- queryTestSctrip -->
-        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceErrorTestCase@4e1d422d]" name="queryTestSctrip" duration-ms="12" started-at="2018-12-06T07:34:19Z" data-provider="queryTestCase" finished-at="2018-12-06T07:34:19Z">
+        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceErrorTestCase@4e1d422d]" name="queryTestSctrip" duration-ms="15" started-at="2018-12-10T09:15:37Z" data-provider="queryTestCase" finished-at="2018-12-10T09:15:37Z">
           <params>
             <param index="0">
               <value>
@@ -52,7 +52,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- queryTestSctrip -->
-        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceErrorTestCase@4e1d422d]" name="queryTestSctrip" duration-ms="12" started-at="2018-12-06T07:34:19Z" data-provider="queryTestCase" finished-at="2018-12-06T07:34:19Z">
+        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceErrorTestCase@4e1d422d]" name="queryTestSctrip" duration-ms="13" started-at="2018-12-10T09:15:37Z" data-provider="queryTestCase" finished-at="2018-12-10T09:15:37Z">
           <params>
             <param index="0">
               <value>
@@ -70,12 +70,12 @@
       </class> <!-- test.WCSQueryInterfaceErrorTestCase -->
     </test> <!-- WCSQueryInterfaceErrorTestCase -->
   </suite> <!-- InterfaceErrorTestSuite -->
-  <suite name="InterfaceTestSuite" duration-ms="1333" started-at="2018-12-06T07:34:18Z" finished-at="2018-12-06T07:34:19Z">
+  <suite name="InterfaceTestSuite" duration-ms="2238" started-at="2018-12-10T09:15:35Z" finished-at="2018-12-10T09:15:37Z">
     <groups>
     </groups>
-    <test name="WCSQueryInterfaceTestCase" duration-ms="1333" started-at="2018-12-06T07:34:18Z" finished-at="2018-12-06T07:34:19Z">
+    <test name="WCSQueryInterfaceTestCase" duration-ms="2238" started-at="2018-12-10T09:15:35Z" finished-at="2018-12-10T09:15:37Z">
       <class name="test.WCSQueryInterfaceTestCase">
-        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceTestCase@cb644e]" name="queryTestSctrip" duration-ms="540" started-at="2018-12-06T07:34:18Z" data-provider="queryTestCase" finished-at="2018-12-06T07:34:19Z">
+        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceTestCase@cb644e]" name="queryTestSctrip" duration-ms="967" started-at="2018-12-10T09:15:36Z" data-provider="queryTestCase" finished-at="2018-12-10T09:15:37Z">
           <params>
             <param index="0">
               <value>
@@ -90,7 +90,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- queryTestSctrip -->
-        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceTestCase@cb644e]" name="queryTestSctrip" duration-ms="19" started-at="2018-12-06T07:34:19Z" data-provider="queryTestCase" finished-at="2018-12-06T07:34:19Z">
+        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceTestCase@cb644e]" name="queryTestSctrip" duration-ms="14" started-at="2018-12-10T09:15:37Z" data-provider="queryTestCase" finished-at="2018-12-10T09:15:37Z">
           <params>
             <param index="0">
               <value>
@@ -105,7 +105,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- queryTestSctrip -->
-        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceTestCase@cb644e]" name="queryTestSctrip" duration-ms="12" started-at="2018-12-06T07:34:19Z" data-provider="queryTestCase" finished-at="2018-12-06T07:34:19Z">
+        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceTestCase@cb644e]" name="queryTestSctrip" duration-ms="16" started-at="2018-12-10T09:15:37Z" data-provider="queryTestCase" finished-at="2018-12-10T09:15:37Z">
           <params>
             <param index="0">
               <value>
@@ -120,7 +120,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- queryTestSctrip -->
-        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceTestCase@cb644e]" name="queryTestSctrip" duration-ms="10" started-at="2018-12-06T07:34:19Z" data-provider="queryTestCase" finished-at="2018-12-06T07:34:19Z">
+        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceTestCase@cb644e]" name="queryTestSctrip" duration-ms="13" started-at="2018-12-10T09:15:37Z" data-provider="queryTestCase" finished-at="2018-12-10T09:15:37Z">
           <params>
             <param index="0">
               <value>
@@ -135,7 +135,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- queryTestSctrip -->
-        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceTestCase@cb644e]" name="queryTestSctrip" duration-ms="14" started-at="2018-12-06T07:34:19Z" data-provider="queryTestCase" finished-at="2018-12-06T07:34:19Z">
+        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceTestCase@cb644e]" name="queryTestSctrip" duration-ms="13" started-at="2018-12-10T09:15:37Z" data-provider="queryTestCase" finished-at="2018-12-10T09:15:37Z">
           <params>
             <param index="0">
               <value>
@@ -144,6 +144,50 @@
  "warehouseArea": "11111111111111111111",
  "bucketCode": "1003"
 }, getResult=, Expectation=, apiProtocol=Http, apiType=Post, apiHead=application/json}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryTestSctrip -->
+        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceTestCase@cb644e]" name="queryTestSctrip" duration-ms="31" started-at="2018-12-10T09:15:37Z" data-provider="queryTestCase" finished-at="2018-12-10T09:15:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{apiCaseName=case10, apiUrl=http://192.168.21.188:8080/wcs/agv/status?warehouseId=60001111&agvCode=agv001, apiData=, getResult=, Expectation={"agvCode":null,"warehouseId":null,"onlineState":null,"wcsJobId":null,"jobStatus":null,"msg":"could not find any info of agv001"}, apiProtocol=Http, apiType=Get, apiHead=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryTestSctrip -->
+        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceTestCase@cb644e]" name="queryTestSctrip" duration-ms="15" started-at="2018-12-10T09:15:37Z" data-provider="queryTestCase" finished-at="2018-12-10T09:15:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{apiCaseName=case11, apiUrl=http://192.168.21.188:8080/wcs/agv/status?warehouseId=60001111&agvCode=agv001, apiData=, getResult=, Expectation=, apiProtocol=Http, apiType=Get, apiHead=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryTestSctrip -->
+        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceTestCase@cb644e]" name="queryTestSctrip" duration-ms="17" started-at="2018-12-10T09:15:37Z" data-provider="queryTestCase" finished-at="2018-12-10T09:15:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{apiCaseName=case12, apiUrl=http://192.168.21.188:8080/wcs/agv/status?warehouseId=6000111111&agvCode=JX-PSS-AGV-192168001001, apiData=, getResult=, Expectation=, apiProtocol=Http, apiType=Get, apiHead=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- queryTestSctrip -->
+        <test-method status="PASS" signature="queryTestSctrip(java.util.Map)[pri:0, instance:test.WCSQueryInterfaceTestCase@cb644e]" name="queryTestSctrip" duration-ms="23" started-at="2018-12-10T09:15:37Z" data-provider="queryTestCase" finished-at="2018-12-10T09:15:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{apiCaseName=case13, apiUrl=http://192.168.21.188:8080/wcs/agv/status?warehouseId=60001&agvCode=JX-PSS-AGV-192168001001, apiData=, getResult=, Expectation={"agvCode":"JX-PSS-AGV-192168001001","warehouseId":60001,"onlineState":"ONLINE","wcsJobId":4234,"jobStatus":"MOVE_COMPLETED","msg":"success"}, apiProtocol=Http, apiType=Get, apiHead=}]]>
               </value>
             </param>
           </params>
