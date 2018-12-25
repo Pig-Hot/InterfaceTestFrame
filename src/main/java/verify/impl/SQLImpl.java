@@ -33,6 +33,6 @@ public class SQLImpl implements IVerify {
                 e.printStackTrace();
             }
         }
-        logger.info("Check Sql Result: " + sqlModel.getQuery() + "=" + sqlModel.getException() + "Success");
+        logger.info("Check Sql Result: " + sqlModel.getQuery() + " = " + sqlModel.getException() + " Success");
     }
 }

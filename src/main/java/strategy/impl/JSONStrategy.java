@@ -2,6 +2,8 @@ package strategy.impl;
 
 import factory.IRequest;
 import factory.impl.RequestFactoryImpl;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import strategy.IStrategy;
 import utils.JSONUtils;
@@ -15,6 +17,8 @@ import java.util.Map;
 public class JSONStrategy implements IStrategy {
 
     private static HashMap<String, Object> hashMap = new HashMap<>();
+
+    private static final Logger logger = LoggerFactory.getLogger(JSONStrategy.class);
 
     @Override
     public void exec(Map<String, String> map) {
@@ -31,6 +35,8 @@ public class JSONStrategy implements IStrategy {
             hashMap.putAll(soMap);
         }
         if (!map.get("Expectation").equals("")) {
+            logger.info("Expection: " + map.get("Expectation"));
+            logger.info("Actual : " + result);
             Assert.assertTrue(assertResult(result,map.get("Expectation")));
         }
     }

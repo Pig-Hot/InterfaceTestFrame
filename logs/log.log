@@ -70,3 +70,12 @@
 2018-12-25 19:00:32,256 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:8080/wcs/bucket/query]
 2018-12-25 19:00:32,291 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:8080/wcs/bucket/query]
 2018-12-25 19:00:32,333 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://192.168.21.188:8080/wcs/bucket/query]
+2018-12-25 19:16:28,169 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://localhost:7775/add]
+2018-12-25 19:16:28,723 [main] [verify.impl.SQLImpl] [INFO] - Exec Sql: select state from walle_core.buckets where bucketID = 1
+2018-12-25 19:16:28,723 [main] [verify.impl.SQLImpl] [INFO] - Check Sql Result: state=STATICSuccess
+2018-12-25 19:16:28,741 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://localhost:7775/add]
+2018-12-25 19:16:28,743 [main] [verify.impl.SQLImpl] [INFO] - Exec Sql: select state from walle_core.buckets where bucketID = 1
+2018-12-25 19:16:28,743 [main] [verify.impl.SQLImpl] [INFO] - Check Sql Result: state=STATICSuccess
+2018-12-25 19:16:28,762 [main] [factory.abst.impl.HttpPostRequest] [INFO] - POST request succeeds[http://localhost:7775/add]
+2018-12-25 19:16:28,764 [main] [verify.impl.SQLImpl] [INFO] - Exec Sql: select state from walle_core.buckets where bucketID = 1
+2018-12-25 19:16:28,765 [main] [verify.impl.SQLImpl] [INFO] - Check Sql Result: state=STATICSuccess
