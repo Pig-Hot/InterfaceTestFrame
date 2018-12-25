@@ -13,11 +13,7 @@ public class RequestFactoryImpl implements IRequestFactory {
         try {
             Class clazz = Class.forName("factory.abst.impl." + protocol + type + "Request");
             o = (IRequest) clazz.newInstance();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
+        } catch (ClassNotFoundException | IllegalAccessException | InstantiationException e) {
             e.printStackTrace();
         }
         return o;
