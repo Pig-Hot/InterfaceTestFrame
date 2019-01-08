@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="InterfaceTestSuite" duration-ms="6553" started-at="2019-01-08T05:28:32Z" finished-at="2019-01-08T05:28:39Z">
+    <groups>
+    </groups>
+    <test name="WCSQueryInterfaceTestCase" duration-ms="6553" started-at="2019-01-08T05:28:32Z" finished-at="2019-01-08T05:28:39Z">
+      <class name="test.JSONTest">
+        <test-method status="PASS" signature="add(java.util.Map)[pri:0, instance:test.JSONTest@3c756e4d]" name="add" duration-ms="5844" started-at="2019-01-08T05:28:33Z" data-provider="test" finished-at="2019-01-08T05:28:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{optionType=SQL, apiCaseName=case1, apiUrl=http://localhost:7775/add, apiData={"x":"1","y":"2"}, getResult={"case1data":"data"}, optionInfo={
+ "user":"root",
+ "pw":"",
+ "url":"jdbc:mysql://192.168.21.149:3306?useSSL=false&allowMultiQueries=true",
+ "sql":"select state from walle_core.buckets where bucketID = 1",
+ "query":"state",
+ "exception":"STATIC"
+}, Expectation={"errNo":0,"data":"3","errMsg":"0"}, apiProtocol=Http, apiType=Post, apiHead=application/json, strategyType=JSON}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="add(java.util.Map)[pri:0, instance:test.JSONTest@3c756e4d]" name="add" duration-ms="19" started-at="2019-01-08T05:28:39Z" data-provider="test" finished-at="2019-01-08T05:28:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{optionType=SQL, apiCaseName=case2, apiUrl=http://localhost:7775/add, apiData={"x":"$case1data$","y":"2"}, getResult={"case2data":"data"}, optionInfo={
+ "user":"root",
+ "pw":"",
+ "url":"jdbc:mysql://192.168.21.149:3306?useSSL=false&allowMultiQueries=true",
+ "sql":"select state from walle_core.buckets where bucketID = 1",
+ "query":"state",
+ "exception":"STATIC"
+}, Expectation={"errNo":0,"data":"5","errMsg":"0"}, apiProtocol=Http, apiType=Post, apiHead=application/json, strategyType=JSON}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="add(java.util.Map)[pri:0, instance:test.JSONTest@3c756e4d]" name="add" duration-ms="12" started-at="2019-01-08T05:28:39Z" data-provider="test" finished-at="2019-01-08T05:28:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{optionType=SQL, apiCaseName=case3, apiUrl=http://localhost:7775/add, apiData={"x":"$case2data$","y":"2"}, getResult=, optionInfo={
+ "user":"root",
+ "pw":"",
+ "url":"jdbc:mysql://192.168.21.149:3306?useSSL=false&allowMultiQueries=true",
+ "sql":"select state from walle_core.buckets where bucketID = 1",
+ "query":"state",
+ "exception":"STATIC"
+}, Expectation={"errNo":0,"data":"7","errMsg":"0"}, apiProtocol=Http, apiType=Post, apiHead=application/json, strategyType=JSON}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+      </class> <!-- test.JSONTest -->
+    </test> <!-- WCSQueryInterfaceTestCase -->
+  </suite> <!-- InterfaceTestSuite -->
+</testng-results>

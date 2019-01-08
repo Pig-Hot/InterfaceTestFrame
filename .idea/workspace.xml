@@ -38,7 +38,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
+            <state relative-caret-position="937">
               <caret line="148" column="47" selection-start-line="148" selection-start-column="47" selection-end-line="148" selection-end-column="47" />
             </state>
           </provider>
@@ -148,7 +148,7 @@
       <find>CountSerlvet</find>
       <find>QuicktronTestDemo</find>
       <find>dashboard</find>
-      <find>col s4</find>
+      <find />
       <find>SOURCEENCODING</find>
       <find>MethodsPassed</find>
       <find>Parameters</find>
@@ -275,10 +275,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="843" />
-    <option name="y" value="34" />
-    <option name="width" value="900" />
-    <option name="height" value="900" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -664,7 +664,7 @@
       <workItem from="1545271693709" duration="10422000" />
       <workItem from="1545631425223" duration="15000" />
       <workItem from="1545645307753" duration="46806000" />
-      <workItem from="1546924248000" duration="516000" />
+      <workItem from="1546924248000" duration="773000" />
     </task>
     <servers />
   </component>
@@ -701,7 +701,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276582000" />
+    <option name="totallyTimeSpent" value="276839000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1143,7 +1143,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
+        <state relative-caret-position="937">
           <caret line="148" column="47" selection-start-line="148" selection-start-column="47" selection-end-line="148" selection-end-column="47" />
         </state>
       </provider>
