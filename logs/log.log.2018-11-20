@@ -1,5 +1,0 @@
-2018-11-20 10:13:44,922 [main] [test.UtilsMethodTest] [INFO] - before test timeutils
-2018-11-20 10:13:44,960 [main] [test.UtilsMethodTest] [INFO] - test jdbcutils
-2018-11-20 10:13:45,428 [main] [test.UtilsMethodTest] [INFO] - test jsonutils
-2018-11-20 10:13:45,535 [main] [test.UtilsMethodTest] [INFO] - test httputils
-2018-11-20 10:13:46,801 [main] [utils.HttpUtils] [INFO] - GET request succeeds[https://www.baidu.com/s?wd=test]

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="InterfaceErrorTestSuite">
-    <parameter name="first"  value="first"/>
-    <test name="WCSQueryInterfaceErrorTestCase">
+<suite name="InterfaceTestSuite">
+    <test name="WCSQueryInterfaceTestCase">
         <classes>
             <!--<class name="test.InterfaceTestDemo">-->
             <!--</class>-->
-            <class name="test.WCSQueryInterfaceErrorTestCase">
+            <class name="test.JSONTest">
             </class>
         </classes>
     </test>
